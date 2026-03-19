@@ -188,7 +188,7 @@ Git Godot: https://github.com/EloiStree/2025_06_05_gdp_two_points_quad_loader
 **Validation des compétences :**
 
 * **Minimum :** Savoir charger des niveaux sur une feuille A4 horizontal
-* **Medior :** Savoir charger des niveaux sur un poster vertical
+* **Medior :** Savoir aussi charger des niveaux sur un poster vertical
 * **Senior :** Fusionner l'addons de la semaine deux et trois dans un projet.
 
 ---------------------
