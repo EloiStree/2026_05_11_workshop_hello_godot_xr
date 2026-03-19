@@ -102,7 +102,7 @@ Voir: https://github.com/EloiStree/2026_04_07_WorkshopArtsAndGit/tree/main
 
 * Finir un niveau jouable en solitaire
 * Savoir utiliser Git avec une branche `main`
-* Svoir utilier Termux Fossify et Git sur Android.
+* Savoir utilier Termux Fossify et Git sur Android.
 * Hors-sujet, challenge C#:  savoir finir son niveau avec du code C# et UDP
 
 ---------------------
