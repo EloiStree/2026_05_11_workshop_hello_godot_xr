@@ -162,10 +162,10 @@ Voir : [https://300-gaming-space.itch.io/initiation-au-mtier-de-game-artist-3d](
 
 **📝 [Workshop->](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/tree/main/Week3)**
 
-**A4 Loader, Solution:**
-Git Unity: https://github.com/EloiStree/2025_06_05_upm_two_points_quad_loader
-Git Godot: https://github.com/EloiStree/2025_06_05_gdp_two_points_quad_loader
-
+**A4 Loader, Solution:**   
+Git Unity: https://github.com/EloiStree/2025_06_05_upm_two_points_quad_loader  
+Git Godot: https://github.com/EloiStree/2025_06_05_gdp_two_points_quad_loader   
+  
 
 **Publications :**
 
