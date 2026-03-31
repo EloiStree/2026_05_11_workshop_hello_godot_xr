@@ -1,6 +1,10 @@
 **"Montrer de l'amour pour l'engine."** GDC, Cherif
 
----------------------
+---------------------  
+
+[Old workshop](https://github.com/EloiStree/TeachingThisYear/issues/2)
+
+----------
 
 > Apprenons à faire une application XR avec Godot 😁 et Git 🍻  
 
