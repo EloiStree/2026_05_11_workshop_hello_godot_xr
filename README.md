@@ -181,6 +181,8 @@ En groupe, répartissez-vous la création des capteurs :
 
 **Points de passage :**
 
+* Pratiquez les branches sur un Git de groupe pour les senseurs.
+
 **En solitaire :**
 * Savoir faire un bouton 3D
 * Savoir faire une LED
