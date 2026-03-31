@@ -78,7 +78,7 @@ Contexte professionnel de l'atelier :
 
 > Cet appareil à 10 000 $ dans un laboratoire prend 3 jours à utiliser et coûte 400 $ par test. Sans compter le temps d’un senior qui doit former la nouvelle recrue. Permettre aux employés de s’entraîner sur la machine avant de l’utiliser réellement. (C’est aussi généralement accompagné de télémétrie pour observer l’apprenant.)
 
-** 🎯Objectif :** Permettre d’apprendre à utiliser un Micro:Bit et ses capteurs sans devoir en acheter.
+**🎯Objectif de faux client:** Permettre d’apprendre à utiliser un Micro:Bit et ses capteurs sans devoir en acheter.
 
 
 ---------------------
