@@ -127,21 +127,16 @@ Voir: https://github.com/EloiStree/2026_04_07_WorkshopArtsAndGit/tree/main
 **📝 [Workshop->](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/tree/main/Week2)**
 
 **Publications :**
-
 * [ ] Une application utilisant Godot XR
-
   * [ ] Savoir attraper le Micro:Bit
   * [ ] Savoir snapper le Micro:Bit
   * [ ] Savoir attraper des capteurs Keyestudio
-
     * [ ] Savoir dupliquer les capteurs
   * [ ] Bonus : Utiliser des pinces crocodiles
   * [ ] Bonus : Voir le travail des artistes en XR
 
 **Points de passage :**
-
 * [ ] Explorer ce que permet le Godot XR Toolkit comparé à VRTK, MRTK et XRTK de Unity
-
   * [ ] Comment bouger et se téléporter dans un niveau
   * [ ] Avec les deux manettes : bouger, tourner et zoomer dans un niveau
   * [ ] Attraper et déplacer des objets du niveau
@@ -153,13 +148,11 @@ Voir: https://github.com/EloiStree/2026_04_07_WorkshopArtsAndGit/tree/main
 
 * Savoir créer une application avec Godot XR permettant d’interagir avec des objets de la scène
 
-
 ### Challenge :
 
 #### Micro:bit
 
 Permetter de "snapper" un Micro:Bit et un code ensemble et de le charger dans un objet donner.
-
 
 #### Gaming 300 Viewer
 Voir : [https://300-gaming-space.itch.io/initiation-au-mtier-de-game-artist-3d](https://300-gaming-space.itch.io/initiation-au-mtier-de-game-artist-3d)
