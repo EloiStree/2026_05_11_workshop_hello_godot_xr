@@ -120,36 +120,39 @@ Voir: https://github.com/EloiStree/2026_04_07_WorkshopArtsAndGit/tree/main
 ---------------------
 
 
-
 ### **Deuxième semaine**, pratiquez Godot XR
 
-**But : pratiquer le XR toolkit dans le casque**
+**But :** pratiquer le XR Toolkit dans le casque
 
 **📝 [Workshop->](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/tree/main/Week2)**
 
 **Publications :**
 
-* [ ]  Une application utilisant Godot XR
+* [ ] Une application utilisant Godot XR
+
   * [ ] Savoir attraper le Micro:Bit
-  * [ ] Svaoir snaper le Micro:Bit
-  * [ ] Savoir attraper des senseurs Keyestudio
-    * [ ] Savoir dupliquer les senseurs 
-  * [ ] Bonus: Utiliser des pinces crocodiles
-  * [ ] Bonus: Voir le travail des artistes en XR 
-  
+  * [ ] Savoir snapper le Micro:Bit
+  * [ ] Savoir attraper des capteurs Keyestudio
+
+    * [ ] Savoir dupliquer les capteurs
+  * [ ] Bonus : Utiliser des pinces crocodiles
+  * [ ] Bonus : Voir le travail des artistes en XR
+
 **Points de passage :**
 
 * [ ] Explorer ce que permet le Godot XR Toolkit comparé à VRTK, MRTK et XRTK de Unity
+
   * [ ] Comment bouger et se téléporter dans un niveau
   * [ ] Avec les deux manettes : bouger, tourner et zoomer dans un niveau
   * [ ] Attraper et déplacer des objets du niveau
   * [ ] Snapper des objets du niveau
-* [ ] Apprendre a ecouter les controlleurs du Quest
-* [ ] Creer une application de portfolio est assets graphique produit par les artistes
+* [ ] Apprendre à écouter les contrôleurs du Quest
+* [ ] Créer une application de portfolio avec les assets graphiques produits par les artistes
 
 **Validation de compétences :**
 
-* Savez vous faire une application avec Godot XR qui permet d interagir avec des objets de la scene.
+* Savoir créer une application avec Godot XR permettant d’interagir avec des objets de la scène
+
 
 ### Challenge :
 
