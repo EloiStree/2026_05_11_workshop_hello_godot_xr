@@ -69,7 +69,7 @@ Mon choix de passer sur Godot s’est fait pour ces raisons :
 
 - [ ] Faire un jeu 2D de Brackeys dans le Quest 3
 - [ ] Apprendre a utiliser Godot XR Tools
-- [ ] Placer des scenes Godot en AR avec des feuilles A4.
+- [ ] Simulation de client: Micro:bit
 - [ ] Gamejam avec les artistes
 
 ---------------------
@@ -122,8 +122,12 @@ Voir: https://github.com/EloiStree/2026_04_07_WorkshopArtsAndGit/tree/main
 **Publications :**
 
 * [ ]  Une application utilisant Godot XR
+  * [ ] Savoir attraper le Micro:Bit
+  * [ ] Svaoir snaper le Micro:Bit
+  * [ ] Savoir attraper des senseurs Keyestudio
+    * [ ] Savoir dupliquer les senseurs 
+  * [ ] Bonus: Utiliser des pinces crocodiles
   * [ ] Bonus: Voir le travail des artistes en XR 
-  * [ ] Bonus: Pour controller un manette Xbox
   
 **Points de passage :**
 
@@ -134,12 +138,6 @@ Voir: https://github.com/EloiStree/2026_04_07_WorkshopArtsAndGit/tree/main
   * [ ] Snapper des objets du niveau
 * [ ] Apprendre a ecouter les controlleurs du Quest
 * [ ] Creer une application de portfolio est assets graphique produit par les artistes
-* [ ]  Bonus : écouter à des devices bluetooth
-  * [ ]  une manette Xbox et Playstation
-  * [ ]  un clavier et une souris
-  * [ ]  un scanner de bare code
-  * [ ]  utiliser les mains pour interagir
-* [ ] Bonus: Jouer a des jeux video depuis le Quest 3 avec XOMI et S2W
 
 **Validation de compétences :**
 
@@ -147,57 +145,65 @@ Voir: https://github.com/EloiStree/2026_04_07_WorkshopArtsAndGit/tree/main
 
 ### Challenge :
 
+#### Micro:bit
+
+Permetter de "snapper" un Micro:Bit et un code ensemble et de le charger dans un objet donner.
+
+
+#### Gaming 300 Viewer
 Voir : [https://300-gaming-space.itch.io/initiation-au-mtier-de-game-artist-3d](https://300-gaming-space.itch.io/initiation-au-mtier-de-game-artist-3d)
 ([P](https://github.com/EloiStree/p_2026_03_15_godot_gaming_300_3pod/releases/tag/2026_03_15))
-
 * [ ] Refaire l’outil de visualisation 3D de Maude
-* [ ] **Challenge Junior :**
-  * [ ] Charger les modèles depuis des ressources
-* [ ] **Challenge Medior :**
-  * [ ] Charger les modèles depuis des fichiers exterieux 
 
 ---------------------
 
 
-### **Troisième semaine**, relocalisation sur un feuille A4
+### **Troisième semaine**, Simulateur Micro:Bit
 
-
-**But : charger une scène Godot dans la vraie vie via une feuille A4**
+**But : Apprendre les bases de Godot par la création d'un simulateur Micro:Bit**
 
 **📝 [Workshop->](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/tree/main/Week3)**
 
-**A4 Loader, Solution:**   
-Git Unity: https://github.com/EloiStree/2025_06_05_upm_two_points_quad_loader  
-Git Godot: https://github.com/EloiStree/2025_06_05_gdp_two_points_quad_loader   
-  
-
 **Publications :**
 
-* [ ] Une application qui charge un niveau sur le sol ou un mur a partir d'une distance entre deux points.
+* [ ] Une application XR avec un Micro:Bit utilisable avec des fonctionnalités codées en groupe.
+
+Essayer de recréer les bases du Micro:Bit :
+* [https://github.com/EloiStree/2026_03_20_workshop_hello_micro_bit](https://github.com/EloiStree/2026_03_20_workshop_hello_micro_bit)
+
+En groupe, répartissez-vous la création des capteurs :
+* [https://github.com/EloiStree/2026_03_23_gdp_micro_bit_sensor](https://github.com/EloiStree/2026_03_23_gdp_micro_bit_sensor)
+
 
 **Points de passage :**
 
-* [ ] C’est quoi un Vector3 ?
-* [ ] C’est quoi une direction ?
-* [ ] C’est quoi une rotation ?
-* [ ] C’est quoi, déjà, la trigonométrie ?
-* [ ] Accéder aux points des manettes
-* [ ] Savoir dessiner une ligne dans l’espace 3D
-* [ ] Relocaliser les calculs en `Vector.ZERO`
-* [ ] Charger une scène selon la distance entre deux points
-* [ ] Relocaliser la scène sur la feuille A4
-* [ ] Relocaliser la scène selon la distance des points
-* [ ] Relocaliser la scène selon que la ligne est horizontal ou vertical
+**En solitaire :**
+* Savoir faire un bouton 3D
+* Savoir faire une LED
+* Savoir faire un tableau de LED
+* Savoir raccorder les LEDs et la matrice
+* Savoir modder le Micro:Bit
+
+**En groupe :**
+* **Débutant** :
+  * Faire un capteur :
+    * Une LED
+    * Un bouton
+    * Un détecteur de mouvement
+    * ...
+* **Expert** :
+  * Simuler un accéléromètre
+  * Simuler un microphone / température
+  * Simuler un tilt avec la rotation
+  * ...
 
 **Validation des compétences :**
 
-* **Minimum :** Savoir charger des niveaux sur une feuille A4 horizontal
-* **Medior :** Savoir aussi charger des niveaux sur un poster vertical
-* **Senior :** Fusionner l'addons de la semaine deux et trois dans un projet.
+* **Minimum :** Savoir créer un Micro:Bit
+* **Medior :** Savoir utiliser le Micro:Bit avec Godot XR
+* **Senior :** Faire une application éducative avec les capteurs en Godot XR
 
 ---------------------
-
-
 
 ### **Quatrième semaine**, début : explorons ce qu’il nous manquerait pour la game jam avec les artistes
 
