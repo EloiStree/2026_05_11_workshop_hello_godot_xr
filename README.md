@@ -4,6 +4,13 @@
 
 [Old workshop](https://github.com/EloiStree/TeachingThisYear/issues/2)
 
+
+-------------
+
+> Quatre semaine en une ligne pour la formation en cours:  
+> `Brackey 2D > Quest3 2D App > Godot XR Tool > Grab + Snap > Led > Button > Mod > Sensor > Group work > Jam`  
+
+
 ----------
 
 > Apprenons à faire une application XR avec Godot 😁 et Git 🍻  
