@@ -1,15 +1,12 @@
 **"Montrer de l'amour pour l'engine."** GDC, Cherif
 
----------------------  
-
-[Old workshop](https://github.com/EloiStree/TeachingThisYear/issues/2)
-
-
 -------------
 
 > Quatre semaine en une ligne pour la formation en cours:  
 > `Brackey 2D > Quest3 2D App > Godot XR Tool > Grab + Snap > Led > Button > Mod > Sensor > Group work > Jam`  
 
+Client Fictif: [A6K](https://www.a6k.be), [Formation](https://www.e6k.be/formations)      
+Micro:bit: [Step by Step](https://github.com/EloiStree/2026_03_20_workshop_hello_micro_bit) - [Senseurs](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor) - [3D](https://github.com/EloiStree/2026_04_07_gdp_charleroi_xr_micro_bit_sensors)   
 
 ----------
 
