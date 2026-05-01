@@ -1,4 +1,4 @@
-<img width="526" height="839" alt="image" src="https://github.com/user-attachments/assets/476f72b4-3516-491b-a465-e5af16288546" />**"Montrer de l'amour pour l'engine."** GDC, Cherif
+**"Montrer de l'amour pour l'engine."** GDC, Cherif
 
 -------------
 
