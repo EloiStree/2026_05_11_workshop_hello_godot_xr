@@ -3,10 +3,17 @@
 -------------
 
 > Quatre semaine en une ligne pour la formation en cours:  
-> `Brackey 2D > Quest3 2D App > Godot XR Tool > Grab + Snap > Led > Button > Mod > Sensor > Group work > Jam`  
+> `Brackey 2D > Quest3 2D App> SSD1306 > Godot XR Tool> Rotation > Led > Button > Grab + Snap > Mod > Sensor > Group work > Jam`
 
 Client Fictif: [A6K](https://www.a6k.be), [Formation](https://www.e6k.be/formations)      
 Micro:bit: [Step by Step](https://github.com/EloiStree/2026_03_20_workshop_hello_micro_bit) - [Senseurs](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor) - [3D](https://github.com/EloiStree/2026_04_07_gdp_charleroi_xr_micro_bit_sensors)   
+
+**Planning:**
+<img width="1743" height="480" alt="image" src="https://github.com/user-attachments/assets/f1108f2b-ad7b-447b-aaf0-1c5aef201ddd" />
+( Peut changer selon le context et avancement de la formation )
+🚧 En construction 🏗️
+
+
 
 ----------
 
