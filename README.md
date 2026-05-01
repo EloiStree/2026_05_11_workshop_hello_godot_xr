@@ -1,4 +1,4 @@
-**"Montrer de l'amour pour l'engine."** GDC, Cherif
+<img width="526" height="839" alt="image" src="https://github.com/user-attachments/assets/476f72b4-3516-491b-a465-e5af16288546" />**"Montrer de l'amour pour l'engine."** GDC, Cherif
 
 -------------
 
@@ -79,8 +79,8 @@ Mon choix de passer sur Godot s’est fait pour ces raisons :
 ## Quatre semaines pour apprendre
 
 - [ ] Faire un jeu 2D de Brackeys dans le Quest 3
-- [ ] Apprendre a utiliser Godot XR Tools
-- [ ] Simulation de client: Micro:bit
+- [ ] Touchons à la XR et aux rotations
+- [ ] Modding et senseurs
 - [ ] Gamejam avec les artistes
 
 
@@ -89,7 +89,7 @@ Contexte professionnel de l'atelier :
 
 > Cet appareil à 10 000 $ dans un laboratoire prend 3 jours à utiliser et coûte 400 $ par test. Sans compter le temps d’un senior qui doit former la nouvelle recrue. Permettre aux employés de s’entraîner sur la machine avant de l’utiliser réellement. (C’est aussi généralement accompagné de télémétrie pour observer l’apprenant.)
 
-**🎯Objectif de faux client:** Permettre d’apprendre à utiliser un Micro:Bit et ses capteurs sans devoir en acheter pour des centres de formation.
+**🎯Objectif de faux client:** Permettre de simuler un [KS4036F](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/220) et ses capteurs sans devoir en acheter pour des centres de formation.
 
 
 ---------------------
@@ -99,12 +99,14 @@ Contexte professionnel de l'atelier :
 
 **But : apprendre à utiliser Git**
 
-Voir: https://github.com/EloiStree/2026_04_07_WorkshopArtsAndGit/tree/main
+Voir: https://github.com/EloiStree/2026_04_07_WorkshopArtsAndGit
 
 ---------------------
 
 
 ### **Première semaine**, nous allons créer un jeu 2D dans le Quest
+
+[<img width="670" height="771" alt="image" src="https://github.com/user-attachments/assets/cefdc4d2-14ef-4281-8eca-75229c8c5163" />](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/tree/main/Week1)
 
 **But : faire nos premiers pas sur Godot**
 
@@ -118,62 +120,62 @@ Voir: https://github.com/EloiStree/2026_04_07_WorkshopArtsAndGit/tree/main
 **Points de passage :**
 
 * [ ]  Faire la vidéo de Brackeys sur un chevalier en 2D
-* [ ]  Faire un niveau a la Tower Fall jouable en solo
 * [ ]  Passer du PC au Quest et du Quest au PC avec Termux et Git
 * [ ]  Sauver et documenter dans les commits l avancement de votre projet
+* [ ]  Toucher a GDScript avec les [SSD1306](https://github.com/EloiStree/HelloGodot128x64)
 
 **Validation de compétences :**
 
 * Finir un niveau jouable en solitaire
 * Savoir utiliser Git avec une branche `main`
-* Savoir utilier Termux Fossify et Git sur Android.
+* Savoir utiliser des tableaux en GDScript
+* Challenge: Savoir utilier Termux Fossify et Git sur Android.
 
 ---------------------
 
 
 ### **Deuxième semaine**, pratiquez Godot XR
 
-**But :** pratiquer le XR Toolkit dans le casque
+[<img width="528" height="850" alt="image" src="https://github.com/user-attachments/assets/36e99e5e-bdeb-48b9-8ef8-9c9cc9a93736" />](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/tree/main/Week2)
+
+
+**But :** pratiquer Godot XR Toolkit et les rotations
 
 **📝 [Workshop->](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/tree/main/Week2)**
 
 **Publications :**
-* [ ] Une application utilisant Godot XR
-  * [ ] Savoir attraper le Micro:Bit
-  * [ ] Savoir snapper le Micro:Bit
-  * [ ] Savoir attraper des capteurs Keyestudio
-    * [ ] Savoir dupliquer les capteurs
-  * [ ] Bonus : Utiliser des pinces crocodiles
-  * [ ] Bonus : Voir le travail des artistes en XR
+* [ ] Une application Godot permetant de:
+  * [ ] Bouger le KS4036 avec des manettes du Quest
+  * [ ] Savoir attraper le SSD1306
+  * [ ] Afficher, sur le SSD1306, ses rotations.
+* [ ] Explorer ce que permet le Godot XR Toolkit comparé à VRTK, MRTK et XRTK de Unity
 
 **Points de passage :**
-* [ ] Explorer ce que permet le Godot XR Toolkit comparé à VRTK, MRTK et XRTK de Unity
-  * [ ] Comment bouger et se téléporter dans un niveau
-  * [ ] Avec les deux manettes : bouger, tourner et zoomer dans un niveau
-  * [ ] Attraper et déplacer des objets du niveau
-  * [ ] Snapper des objets du niveau
-* [ ] Apprendre à écouter les contrôleurs du Quest
+- [ ] Savoir ecouter au input de la manette
+- [ ] Savoir recuprer les positions et rotations des manettes
+- [ ] Interfacer les inputs a un script
+- [ ] Savoir attraper un objet
+- [ ] Comprendre les principes de Yaw Pitch Roll
+- [ ] Comprendre le principe de base de Euler
+
+**Challenger**:
+_Pour ceux aui aurait de l'avance:_
+* [ ] Avec les deux manettes : bouger, tourner et zoomer dans un niveau
 * [ ] Créer une application de portfolio avec les assets graphiques produits par les artistes
 
 **Validation de compétences :**
 
-* Savoir créer une application avec Godot XR permettant d’interagir avec des objets de la scène
+* Savoir attraper des objets et afficher leur rotation en XR
 
-### Challenge :
 
-#### Micro:bit
-
-Permetter de "snapper" un Micro:Bit et un code ensemble et de le charger dans un objet donner.
-
-#### Gaming 300 Viewer
-Voir : [https://300-gaming-space.itch.io/initiation-au-mtier-de-game-artist-3d](https://300-gaming-space.itch.io/initiation-au-mtier-de-game-artist-3d)
-([P](https://github.com/EloiStree/p_2026_03_15_godot_gaming_300_3pod/releases/tag/2026_03_15))
-* [ ] Refaire l’outil de visualisation 3D de Maude
 
 ---------------------
 
 
 ### **Troisième semaine**, Simulateur Micro:Bit
+
+
+[<img width="526" height="839" alt="image" src="https://github.com/user-attachments/assets/691d20a2-3b06-40b5-9104-42a3e6f0f317" />](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/tree/main/Week3)
 
 **But : Apprendre les bases de Godot par la création d'un simulateur Micro:Bit**
 
@@ -181,25 +183,28 @@ Voir : [https://300-gaming-space.itch.io/initiation-au-mtier-de-game-artist-3d](
 
 **Publications :**
 
-* [ ] Une application XR avec un Micro:Bit utilisable avec des fonctionnalités codées en groupe.
+* [ ] Un KS4036 moddable qui rebondit sur les bords
+  * [ ] Capaciter de deposer du code sur le KS4036
 
-Essayer de recréer les bases du Micro:Bit :
+A l'image du Micro:Bit et du SSD1306:
 * [https://github.com/EloiStree/2026_03_20_workshop_hello_micro_bit](https://github.com/EloiStree/2026_03_20_workshop_hello_micro_bit)
 
-En groupe, répartissez-vous la création des capteurs :
-* [https://github.com/EloiStree/2026_03_23_gdp_micro_bit_sensor](https://github.com/EloiStree/2026_03_23_gdp_micro_bit_sensor)
+Creeons un KS4036 qui utilise les Raycasts et Area3D pour rebondir sur les bords a l aide dun code d un apprenant.
 
+Le but serait dans l avenir de fournir du matos virtuelle a une ecole pour apprendres les bases de l ectronique a l aide du un jeu moddable en Godot.
+
+Pratiquons la creation d une boite a outils en groupe pour le store de Godot en creant chaque un un senseurs, voir:
+https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/220
 
 **Points de passage :**
 
+* Pratiquez le modding
+* Travaillez le snapping d'object
 * Pratiquez les branches sur un Git de groupe pour les senseurs.
 
 **En solitaire :**
-* Savoir faire un bouton 3D
-* Savoir faire une LED
-* Savoir faire un tableau de LED
-* Savoir raccorder les LEDs et la matrice
-* Savoir modder le Micro:Bit
+- Snapper des objets ensemble
+- Snapper du code sur le KS4036
 
 **En groupe :**
 * **Débutant** :
@@ -216,13 +221,14 @@ En groupe, répartissez-vous la création des capteurs :
 
 **Validation des compétences :**
 
-* **Minimum :** Savoir créer un Micro:Bit
-* **Medior :** Savoir utiliser le Micro:Bit avec Godot XR
-* **Senior :** Faire une application éducative avec les capteurs en Godot XR
+* **Minimum :** Savoir creer un composant dans la boite a outils
+* **Senior :** Savoir snapper du code et fournir des composants
 
 ---------------------
 
 ### **Quatrième semaine**, début : explorons ce qu’il nous manquerait pour la game jam avec les artistes
+
+[<img width="896" height="830" alt="image" src="https://github.com/user-attachments/assets/47b2d098-8293-4de1-9988-95862b03b03d" />](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/tree/main/Week4)
 
 **But : savoir travailler avec les artistes**
 
@@ -233,6 +239,11 @@ On ne peut pas tout étudier en trois semaines. Voyons donc ce qu’il nous manq
 * [ ]  Vérifier les concepts de base : texture, shader, matériaux, mesh, triangle, animation 3D, state machine, lumière, VFX, particules…
 * [ ]  Savoir importer et ajuster des modèles riggés, des textures et des SVG
 * [ ]  Voir si nous arrivons à intégrer dans Godot tous les assets que les artistes ont produits depuis le début de la formation XR sur le Quest
+
+**Point de passage:**
+- [ ] Pratiquer les 2D UI
+- [ ] Explorer les 200 nodes
+- [ ] Importer un model Mixamo
 
 **Validation de compétences :**
 
@@ -254,7 +265,7 @@ On ne peut pas tout étudier en trois semaines. Voyons donc ce qu’il nous manq
 
 **Validation de compétences :**
 
-* Finir un jeu en moins de 5 jours sur Git avec des artistes, sur Godot.
+* Finir un jeu en moins de 3 jours sur Git avec des artistes, sur Godot.
 
 
 
@@ -265,3 +276,14 @@ Notez que un des meilleurs moyens d apprendre des fois... C est d aider les autr
 <img width="850" height="498" alt="Image" src="https://github.com/user-attachments/assets/527d209d-3924-448a-bc8c-3113c6bb4840" />   
 <img width="1848" height="1099" alt="Image" src="https://github.com/user-attachments/assets/613cdf85-b9d4-4dbd-bd9b-e0c82ca074ab" />  
 <img width="1594" height="1106" alt="Image" src="https://github.com/user-attachments/assets/86cd0641-2c77-4aa9-b988-301d59f81dcf" />  
+
+
+
+
+---------
+
+
+#### Gaming 300 Viewer
+Voir : [https://300-gaming-space.itch.io/initiation-au-mtier-de-game-artist-3d](https://300-gaming-space.itch.io/initiation-au-mtier-de-game-artist-3d)
+([P](https://github.com/EloiStree/p_2026_03_15_godot_gaming_300_3pod/releases/tag/2026_03_15))
+* [ ] Refaire l’outil de visualisation 3D de Maude
