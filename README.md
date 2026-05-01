@@ -106,7 +106,9 @@ Voir: https://github.com/EloiStree/2026_04_07_WorkshopArtsAndGit
 
 ### **Première semaine**, nous allons créer un jeu 2D dans le Quest
 
+
 [<img width="670" height="771" alt="image" src="https://github.com/user-attachments/assets/cefdc4d2-14ef-4281-8eca-75229c8c5163" />](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/tree/main/Week1)
+
 
 **But : faire nos premiers pas sur Godot**
 
@@ -136,7 +138,9 @@ Voir: https://github.com/EloiStree/2026_04_07_WorkshopArtsAndGit
 
 ### **Deuxième semaine**, pratiquez Godot XR
 
+
 [<img width="528" height="850" alt="image" src="https://github.com/user-attachments/assets/36e99e5e-bdeb-48b9-8ef8-9c9cc9a93736" />](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/tree/main/Week2)
+
 
 
 **But :** pratiquer Godot XR Toolkit et les rotations
@@ -175,7 +179,9 @@ _Pour ceux aui aurait de l'avance:_
 ### **Troisième semaine**, Simulateur Micro:Bit
 
 
+
 [<img width="526" height="839" alt="image" src="https://github.com/user-attachments/assets/691d20a2-3b06-40b5-9104-42a3e6f0f317" />](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/tree/main/Week3)
+
 
 **But : Apprendre les bases de Godot par la création d'un simulateur Micro:Bit**
 
@@ -228,7 +234,9 @@ https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/220
 
 ### **Quatrième semaine**, début : explorons ce qu’il nous manquerait pour la game jam avec les artistes
 
+
 [<img width="896" height="830" alt="image" src="https://github.com/user-attachments/assets/47b2d098-8293-4de1-9988-95862b03b03d" />](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/tree/main/Week4)
+
 
 **But : savoir travailler avec les artistes**
 
