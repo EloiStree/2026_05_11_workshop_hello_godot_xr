@@ -12,12 +12,16 @@ Liens utiles:
 - [Senseurs en XR](https://github.com/EloiStree/2026_04_07_gdp_charleroi_xr_micro_bit_sensors)
   - [Senseurs code et 3D](https://github.com/EloiStree/2026_04_11_gdp_learn_with_sensors)
 
-[<img width="752" height="436" alt="image" src="https://github.com/user-attachments/assets/bd8ee5e5-46b3-4770-a066-93ffb70764fe" />](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/220)   
-https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/220   
+
+**Objectif: Deux roues moddable**   
+_Permettre d'apprendre le code avec un deux roues moddables type KS4036_   
+[<img width="752" height="436" alt="image" src="https://github.com/user-attachments/assets/bd8ee5e5-46b3-4770-a066-93ffb70764fe" />](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/220)       
+[Documentation ->](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/220)       
 
 
-[<img width="828" height="433" alt="image" src="https://github.com/user-attachments/assets/6ee6c7b1-3d3e-4e8d-ae30-9a7639d3b237" />](https://www.youtube.com/watch?v=5CaVhGTG8eA)   
-[Robotarium](https://www.youtube.com/watch?v=5CaVhGTG8eA) [Fouloscopie](https://www.youtube.com/@Fouloscopie) [📼](https://www.youtube.com/watch?v=5CaVhGTG8eA)   
+**Inspiration: Robotarium**
+[<img width="828" height="433" alt="image" src="https://github.com/user-attachments/assets/6ee6c7b1-3d3e-4e8d-ae30-9a7639d3b237" />](https://www.youtube.com/watch?v=5CaVhGTG8eA)     
+[Video 📼](https://www.youtube.com/watch?v=5CaVhGTG8eA)     
 
 
 **Planning:**
