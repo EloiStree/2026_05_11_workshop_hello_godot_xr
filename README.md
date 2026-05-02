@@ -8,6 +8,10 @@
 Client Fictif: [A6K](https://www.a6k.be), [Formation](https://www.e6k.be/formations)      
 Micro:bit: [Step by Step](https://github.com/EloiStree/2026_03_20_workshop_hello_micro_bit) - [Senseurs](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor) - [3D](https://github.com/EloiStree/2026_04_07_gdp_charleroi_xr_micro_bit_sensors)   
 
+[<img width="828" height="433" alt="image" src="https://github.com/user-attachments/assets/6ee6c7b1-3d3e-4e8d-ae30-9a7639d3b237" />](https://www.youtube.com/watch?v=5CaVhGTG8eA)   
+[Robotarium](https://www.youtube.com/watch?v=5CaVhGTG8eA) [Fouloscopie](https://www.youtube.com/@Fouloscopie) [📼](https://www.youtube.com/watch?v=5CaVhGTG8eA)   
+
+
 **Planning:**
 <img width="1743" height="480" alt="image" src="https://github.com/user-attachments/assets/f1108f2b-ad7b-447b-aaf0-1c5aef201ddd" />  
 ( Peut changer selon le context et avancement de la formation )  
