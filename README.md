@@ -24,6 +24,12 @@ _Permettre d'apprendre le code avec un deux roues moddables type KS4036_
 [Video 📼](https://www.youtube.com/watch?v=5CaVhGTG8eA)     
 
 
+**Alternative : SSD1306**
+*Micro:bit est un peu trop complexe pour un atelier XR de 3 semaines.
+Utilisons plutôt un écran SSD1306 128×64, avec accès aux données de position et de rotation depuis Godot.*
+
+
+
 **Planning:**
 <img width="1743" height="480" alt="image" src="https://github.com/user-attachments/assets/f1108f2b-ad7b-447b-aaf0-1c5aef201ddd" />  
 ( Peut changer selon le context et avancement de la formation )  
