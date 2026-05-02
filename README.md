@@ -6,7 +6,11 @@
 > `Brackey 2D > Quest3 2D App> SSD1306 > Godot XR Tool> Rotation > Led > Button > Grab + Snap > Mod > Sensor > Group work > Jam`
 
 Client Fictif: [A6K](https://www.a6k.be), [Formation](https://www.e6k.be/formations)      
-Micro:bit: [Step by Step](https://github.com/EloiStree/2026_03_20_workshop_hello_micro_bit) - [Senseurs](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor) - [3D](https://github.com/EloiStree/2026_04_07_gdp_charleroi_xr_micro_bit_sensors)   
+Micro:bit: 
+- [Step by Step](https://github.com/EloiStree/2026_03_20_workshop_hello_micro_bit)
+- [Senseurs Documentation](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor) 
+- [Senseurs en XR](https://github.com/EloiStree/2026_04_07_gdp_charleroi_xr_micro_bit_sensors)
+  - [Senseurs code et 3D](https://github.com/EloiStree/2026_04_11_gdp_learn_with_sensors)
 
 [<img width="752" height="436" alt="image" src="https://github.com/user-attachments/assets/bd8ee5e5-46b3-4770-a066-93ffb70764fe" />](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/220)   
 https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/220   
