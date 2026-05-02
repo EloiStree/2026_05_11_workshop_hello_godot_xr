@@ -10,7 +10,7 @@
 ------------------
 
 
-My draft attempt:    
+My draft attempt validated:    
 ``` gdscript
 
 static func compute_wheel_rotation_in_degrees_from_frontal_double_point(front_center_point_forward: Node3D) -> float:
