@@ -28,6 +28,16 @@ _Permettre d'apprendre le code avec un deux roues moddables type KS4036_
 *Micro:bit est un peu trop complexe pour un atelier XR de 3 semaines.
 Utilisons plutôt un écran SSD1306 128×64, avec accès aux données de position et de rotation depuis Godot.*
 
+[<img width="642" height="577" alt="image" src="https://github.com/user-attachments/assets/42327720-c67e-4563-882f-0c7d01403033" />](https://github.com/EloiStree/2026_04_27_gdp_oled_128x64)  
+https://github.com/EloiStree/2026_04_27_gdp_oled_128x64   
+
+
+**Restons simples**
+*Objectif minimal de l’atelier : concevoir un petit robot contrôlable, voire modable, en XR.*   
+*(Sur deux roues ou équipé de servomoteurs)*  
+[<img width="761" height="417" alt="image" src="https://github.com/user-attachments/assets/6a9dafa5-90ee-44bc-b790-b5439bfb02e1" />](https://www.linkedin.com/posts/jr-arman_built-a-custom-pathfinding-system-on-top-ugcPost-7454803194129375232-Bd9v)     
+Video:[📼](https://www.linkedin.com/posts/jr-arman_built-a-custom-pathfinding-system-on-top-ugcPost-7454803194129375232-Bd9v)    
+
 
 
 **Planning:**
