@@ -39,6 +39,14 @@ https://github.com/EloiStree/2026_04_27_gdp_oled_128x64
 Video:[📼](https://www.linkedin.com/posts/jr-arman_built-a-custom-pathfinding-system-on-top-ugcPost-7454803194129375232-Bd9v)       
 
 
+**Ou compliquez**: si vous avez le temps apres les cours
+[<img width="703" height="392" alt="Image" src="https://github.com/user-attachments/assets/55ca1074-fb18-49d8-bcd8-ba90cc3cbfc5" />](https://youtu.be/nmmopQ1EEs0?t=544)   
+https://youtu.be/nmmopQ1EEs0?t=544    
+ 
+[<img width="703" height="482" alt="image" src="https://github.com/user-attachments/assets/76494560-60af-4f36-8462-ce601e824e0a" />](https://youtu.be/AlsCUzCCc-k?t=216)
+https://youtu.be/AlsCUzCCc-k?t=216   
+
+
 
 **Planning:**    
 [<img width="1743" height="480" alt="image" src="https://github.com/user-attachments/assets/f1108f2b-ad7b-447b-aaf0-1c5aef201ddd" />](https://miro.com/app/board/uXjVGUVLhc8=/?share_link_id=237855881001)        
