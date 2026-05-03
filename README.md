@@ -216,7 +216,7 @@ _Pour ceux aui aurait de l'avance:_
 [<img width="526" height="839" alt="image" src="https://github.com/user-attachments/assets/691d20a2-3b06-40b5-9104-42a3e6f0f317" />](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/tree/main/Week3)
 
 
-**But : Apprendre les bases de Godot par la création d'un simulateur Micro:Bit**
+**But : Apprendre les bases de Godot par la création d'un simulateur**
 
 **📝 [Workshop->](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/tree/main/Week3)**
 
