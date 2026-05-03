@@ -101,7 +101,7 @@ On va s’en sortir 😋
 Godot est assez magique.     
 Super léger, il tourne littéralement sur votre téléphone.     
 Tellement léger qu’une partie de ce cours aura lieu directement dans le casque 😉.    
-_(Attention, il n’y a pas d’IA sur le casque pour vous aider ;) il faut bien pratiquer le cours)_  
+_(Attention, il n’y a pas d’IA sur le casque pour vous aider 🤖 il faut bien pratiquer le cours)_  
 
 Godot est open source et communautaire.     
 Créé par des Argentins, il se veut utilisable sur des ordinateurs dits « patates » pour être accessible à tous.     
