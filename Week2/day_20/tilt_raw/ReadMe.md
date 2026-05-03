@@ -5,8 +5,7 @@
 
 
 
-Example not cleaned: 
-
+Example: 
 ``` gdscript
 class_name SSD1306RotationTiltRawFaceUp
 extends Node
