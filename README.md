@@ -13,38 +13,38 @@ Liens utiles:
   - [Senseurs code et 3D](https://github.com/EloiStree/2026_04_11_gdp_learn_with_sensors)
 
 
-**Objectif: Deux roues moddable**   
-_Permettre d'apprendre le code avec un deux roues moddables type KS4036_   
+**Objectif: Deux roues moddable**       
+_Permettre d'apprendre le code avec un deux roues moddables type KS4036_      
 [<img width="752" height="436" alt="image" src="https://github.com/user-attachments/assets/bd8ee5e5-46b3-4770-a066-93ffb70764fe" />](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/220)       
 [Documentation ->](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/220)       
 
 
-**Inspiration: Robotarium**
+**Inspiration: Robotarium**    
 [<img width="828" height="433" alt="image" src="https://github.com/user-attachments/assets/6ee6c7b1-3d3e-4e8d-ae30-9a7639d3b237" />](https://www.youtube.com/watch?v=5CaVhGTG8eA)     
-[Video 📼](https://www.youtube.com/watch?v=5CaVhGTG8eA)     
+[Video 📼](https://www.youtube.com/watch?v=5CaVhGTG8eA)        
 
 
-**Alternative : SSD1306**
-*Micro:bit est un peu trop complexe pour un atelier XR de 3 semaines.
-Utilisons plutôt un écran SSD1306 128×64, avec accès aux données de position et de rotation depuis Godot.*
+**Alternative : SSD1306**    
+*Micro:bit est un peu trop complexe pour un atelier XR de 3 semaines.       
+Utilisons plutôt un écran SSD1306 128×64, avec accès aux données de position et de rotation depuis Godot.*    
 
-[<img width="642" height="577" alt="image" src="https://github.com/user-attachments/assets/42327720-c67e-4563-882f-0c7d01403033" />](https://github.com/EloiStree/2026_04_27_gdp_oled_128x64)  
-https://github.com/EloiStree/2026_04_27_gdp_oled_128x64   
-
-
-**Restons simples**
-*Objectif minimal de l’atelier : concevoir un petit robot contrôlable, voire modable, en XR.*   
-*(Sur deux roues ou équipé de servomoteurs)*  
-[<img width="761" height="417" alt="image" src="https://github.com/user-attachments/assets/6a9dafa5-90ee-44bc-b790-b5439bfb02e1" />](https://www.linkedin.com/posts/jr-arman_built-a-custom-pathfinding-system-on-top-ugcPost-7454803194129375232-Bd9v)     
-Video:[📼](https://www.linkedin.com/posts/jr-arman_built-a-custom-pathfinding-system-on-top-ugcPost-7454803194129375232-Bd9v)    
+[<img width="642" height="577" alt="image" src="https://github.com/user-attachments/assets/42327720-c67e-4563-882f-0c7d01403033" />](https://github.com/EloiStree/2026_04_27_gdp_oled_128x64)    
+https://github.com/EloiStree/2026_04_27_gdp_oled_128x64      
 
 
+**Restons simples**    
+*Objectif minimal de l’atelier : concevoir un petit robot contrôlable, voire modable, en XR.*      
+*(Sur deux roues ou équipé de servomoteurs)*    
+[<img width="761" height="417" alt="image" src="https://github.com/user-attachments/assets/6a9dafa5-90ee-44bc-b790-b5439bfb02e1" />](https://www.linkedin.com/posts/jr-arman_built-a-custom-pathfinding-system-on-top-ugcPost-7454803194129375232-Bd9v)        
+Video:[📼](https://www.linkedin.com/posts/jr-arman_built-a-custom-pathfinding-system-on-top-ugcPost-7454803194129375232-Bd9v)       
 
-**Planning:**
-<img width="1743" height="480" alt="image" src="https://github.com/user-attachments/assets/f1108f2b-ad7b-447b-aaf0-1c5aef201ddd" />  
-( Peut changer selon le context et avancement de la formation )  
-🚧 En construction 🏗️   
 
+
+**Planning:**    
+[<img width="1743" height="480" alt="image" src="https://github.com/user-attachments/assets/f1108f2b-ad7b-447b-aaf0-1c5aef201ddd" />](https://miro.com/app/board/uXjVGUVLhc8=/?share_link_id=237855881001)        
+( Peut changer selon le context et avancement de la formation )     
+🚧 En construction 🏗️      
+  
 -> [Planning Board and A4](https://miro.com/app/board/uXjVGUVLhc8=/?share_link_id=237855881001)
 
 
