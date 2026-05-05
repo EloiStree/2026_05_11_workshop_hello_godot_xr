@@ -1,16 +1,18 @@
-**Objectifs:** RGB Led
+**Objectif:** LED RGB
 
-Allez un petit pause.    
-    
-Parlons materiels, duplication et texture.   
-Creeons ensembles un led RGB 💡🚦   
+On fait une petite pause.   
 
+On passe aux matériaux, à la duplication et aux textures.   
+Créons ensemble une LED RGB 💡🚦   
 
-Parlons d' un strip led 8x8x8    
-Ca fait vite 512 led ;)  
+Sans entrer dans la pratique, imaginons un strip LED en 8×8×8.   
+Ça monte vite à 512 LED, histoire de rappeler que la joie est toujours proportionnelle à la complexité 😉   
 
-Ici, ils nous faut un nouveau type solution avec un texture et un mesh generer   
-Ou une animation bone et une piscine.   
+Ici, il nous faut une autre approche : une solution basée sur une texture et un mesh généré.    
+Ou alors une animation par bones, avec une sorte de “pool” de contrôle pour piloter tout ça proprement.    
+
+Bref, éviter de transformer le projet en cauchemar de duplication manuelle.      
+
 
 
 -----------------------
