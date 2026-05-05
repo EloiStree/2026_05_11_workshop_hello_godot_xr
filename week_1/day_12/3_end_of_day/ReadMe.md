@@ -2,6 +2,12 @@
 
 Simplement, jouez au jeu que vous avez créé avec une vraie manette NES.    
 Une fois réussi, permettez de jouer via votre interface NES en utilisant les entrées de votre manette et de votre clavier.    
+
+Huit buttons:
+- Arrow: Up, Right, Down, Left
+- Select, Menu
+- A , B
+
   
 --------------
 
