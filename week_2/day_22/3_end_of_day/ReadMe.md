@@ -1,4 +1,4 @@
-Objectif : Calculer le tilt et le raw
+**Objectif:** Calculons le tilt et le raw
 
 Si vous deviez créer un niveau à bulle en VR, vous devriez calculer son tilt et son raw à partir d’un quaternion.
 
