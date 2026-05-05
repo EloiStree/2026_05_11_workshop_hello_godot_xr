@@ -60,3 +60,9 @@ Objectif :
 Voilà. Simple, imparfait, mais fonctionnel.
 
 Regarder une vidéo du Robotarium pour inspiration.
+
+
+-------------
+
+Note:
+- ZZT game : https://youtu.be/biogmchqZbs?t=183
