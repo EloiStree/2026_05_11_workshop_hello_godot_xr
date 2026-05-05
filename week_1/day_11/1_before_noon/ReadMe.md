@@ -9,17 +9,6 @@ Rien de plus que de faire la vidéo pour ce matin et cet après-midi.
 Il faut un à trois jours, selon votre niveau, pour faire la vidéo.  
    
 On a aujourd’hui et demain.    
-  
----
-
-### What I fixed (so you don’t repeat the crimes):
-
-* Added missing accents: *à, après-midi, aujourd’hui*    
-* Fixed spacing around punctuation (French loves its spaces more than you did)     
-* Added commas where the sentence was gasping for air   
-* Slight phrasing tweaks to avoid sounding like a robot that just discovered verbs      
-     
-It’s now readable without making a French teacher lose faith in humanity.    
 
 
 [<img width="1060" height="175" alt="image" src="https://github.com/user-attachments/assets/513b998b-e510-47ec-aa87-2a24bc35bb84" />](https://www.youtube.com/watch?v=LOhfqjmasi0&t=1s)   
