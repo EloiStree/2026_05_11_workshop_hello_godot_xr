@@ -18,6 +18,13 @@ Ici, le but est simple : lire le [manuel](https://docs.godotengine.org/fr/4.x/tu
 * [ ] Ajouter deux cubes pour les mains avec les **XRController**
 * 🛑 Full stop : on s’arrête ici.
 
+Video:
+
+[<img width="818" height="448" alt="image" src="https://github.com/user-attachments/assets/bcdc0bf4-2d8c-41fa-86e6-ad73d4cb3ab8" />](https://youtu.be/yMFC_DTZ0fQ?t=277)
+[<img width="816" height="454" alt="image" src="https://github.com/user-attachments/assets/2ac17044-42f0-45b1-9931-cedd605bfc49" />](https://youtu.be/yMFC_DTZ0fQ?t=277)
+- Version XR: https://www.youtube.com/watch?v=yMFC_DTZ0fQ&t=2s
+  - Non XR https://www.youtube.com/watch?v=tbfzr3zpOBc 
+
 Commencer à apprendre directement en VR sans savoir comment Godot fonctionne…    
 C’est un peu risqué. Une fois que vous avez un magnifique cube devant vous en XR,   
 allez faire le tutoriel de Brackeys sur le **2D Knight**.    
@@ -36,6 +43,12 @@ Youtube Keywords:
 
 
 -------
+
 Archived:
 - One Day XR:
   - Open Brush to Git Group https://www.youtube.com/watch?v=cMIOaX0smCk
+
+
+
+---------------
+
