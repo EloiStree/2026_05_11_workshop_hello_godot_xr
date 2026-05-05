@@ -8,6 +8,8 @@ Huit buttons:
 - Select, Menu
 - A , B
 
+_NES Package I created on my side:_    
+https://github.com/EloiStree/2026_01_18_gdp_nes_controller_udp   
   
 --------------
 
