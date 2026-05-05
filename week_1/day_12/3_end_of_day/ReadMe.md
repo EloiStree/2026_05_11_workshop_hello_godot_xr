@@ -10,7 +10,10 @@ Huit buttons:
 
 _NES Package I created on my side:_    
 https://github.com/EloiStree/2026_01_18_gdp_nes_controller_udp   
-  
+
+Dirty quick solution:   
+https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/tree/main/week_1/day_12/nes_fake_input   
+
 --------------
 
 
