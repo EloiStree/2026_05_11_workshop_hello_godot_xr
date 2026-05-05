@@ -11,8 +11,8 @@ L’objectif ici est de se familiariser avec Area3D dans Godot, puis d’explore
 
 ------------
 
-Une solution:
-``` gdscript
+**Une solution:**   
+``` gdscript  
 
 class_name MicroBitAreaCollidableArea3D
 extends Area3D
