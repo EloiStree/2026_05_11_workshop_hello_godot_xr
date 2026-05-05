@@ -27,3 +27,8 @@ et les triggers permettront de gérer la rotation gauche/droite.
 
 Toutes les scripts présents dans la sphère recevront ces événements.
 
+
+
+Ici, on utilise une sphère, mais on pourrait tout aussi bien travailler avec un cylindre attaché à la main du joueur ou à sa tête, afin d’interagir avec un objet ciblé ou simplement celui qu’il est en train de regarder.
+  
+Autre exemple : la télécommande infrarouge, qu’on pourrait simuler dans notre projet.
