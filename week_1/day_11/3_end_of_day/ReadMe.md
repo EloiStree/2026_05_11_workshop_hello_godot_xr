@@ -1,11 +1,11 @@
 
 **Objectifs** : Travailler sur un jeu en 2D dans le casque
 
-Si vous le désirez, vous pourriez travailler toute la journée dans le casque directement.
+Si vous le désirez, vous pourriez travailler toute la journée dans le casque directement.   
 
-Je l’ai déjà fait pendant plusieurs semaines.
-C’est assez agréable 😀
-
+Je l’ai déjà fait pendant plusieurs semaines.        
+C’est assez agréable 😀    
+  
 Pour cela, il vous faut :
 
 * un Quest
