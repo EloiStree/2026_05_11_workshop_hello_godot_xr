@@ -10,6 +10,8 @@ En bref, la méthode consiste à générer un deuxième point sur la droite, pui
   
 
 
+------------------
+------------------
 
 **Solution:**
 ``` gdscript
