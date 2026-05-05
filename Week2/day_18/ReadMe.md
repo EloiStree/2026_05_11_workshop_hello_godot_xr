@@ -41,3 +41,19 @@ Créez un code qui permet d’afficher les inputs des manettes du Quest sur le S
 Attachez le SSD1306 à votre voiture.
 
 Vous pouvez aussi ajouter un quad fixe avec la texture.
+
+
+
+
+
+-----------
+
+
+**In Unity**:
+- Input to moving Toy https://youtu.be/1-5Cb5VWcY8?t=1591
+  - https://github.com/EloiStree/2026_03_20_workshop_hello_micro_bit/issues/16
+  - https://github.com/EloiStree/2026_04_07_workshop_hello_art_and_git/blob/main/day_1/ReadMe.md
+- Creer une voiture a deux roues: https://youtu.be/Bq60Q9n4NWk?t=2272
+  -  https://github.com/EloiStree/2026_04_03_upm_kid_toy_two_wheel_code
+  - https://github.com/EloiStree/2026_04_07_workshop_hello_art_and_git/blob/main/day_1/ReadMe.md
+
