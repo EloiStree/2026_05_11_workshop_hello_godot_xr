@@ -28,7 +28,7 @@ https://www.youtube.com/watch?v=LOhfqjmasi0
 
 
 
-Info: 
+Info Playlist:   
 - https://github.com/EloiStree/HelloGodotEngineKeyword/issues/2
 
 --------------------------
