@@ -19,9 +19,12 @@ https://github.com/DmitriySalnikov/godot_debug_draw_3d
 
 ----------------
 
+----------------
+
 Une solution
 
 ``` gdscript
+
 class_name SensorToolRaycastToDistance
 extends Node
 
@@ -32,6 +35,7 @@ signal on_stop_collision()
 signal on_colliding_point_updated(collision_point: Vector3)
 signal on_distance_updated(distance: float)
 signal on_distance_as_percent_updated(distance: float)
+signal on_node_hit_changed(node: Node)
 
 @export var raycast_to_use:RayCast3D
 
@@ -42,6 +46,7 @@ signal on_distance_as_percent_updated(distance: float)
 @export_group("Debug")
 @export var is_colliding: bool = false
 @export var hit_point_distance: float = 0.0
+@export var hit_node: Node = null
 
 
 func _process(delta: float) -> void:
@@ -73,12 +78,21 @@ func _process(delta: float) -> void:
 
 	on_detecting_collision.emit(is_colliding)
 
+	var node_that_hit = raycast_to_use.get_collider() if is_colliding else null
+	if node_that_hit != hit_node:
+		hit_node = node_that_hit
+		on_node_hit_changed.emit(hit_node)
+
 
 	var start_point: Vector3 = raycast_to_use.global_position
 	var q_forward: Vector3 = -raycast_to_use.global_transform.basis.z.normalized()
-	var end_point: Vector3 = start_point + q_forward * Vector3(0, 0, 10).length()
+	var end = raycast_to_use.to_global(raycast_to_use.target_position)
+	var end_point: Vector3 = start_point + end
 	if is_colliding:
 		end_point = raycast_to_use.get_collision_point()
 	
-	# DebugDraw3D.draw_line(start_point, end_point, Color(1, 1, 0),0.05)
-	```
+	DebugDraw3D.draw_line(start_point, end_point, Color(1, 1, 0),0.05)
+
+	
+
+```
