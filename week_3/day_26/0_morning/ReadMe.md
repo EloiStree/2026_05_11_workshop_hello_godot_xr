@@ -9,3 +9,7 @@ Cela permettra de donner des “yeux” à notre voiture, voire de créer un las
 
 **Challenge Raycast :**     
 [https://github.com/EloiStree/2026_04_11_gdp_learn_with_sensors/issues/28](https://github.com/EloiStree/2026_04_11_gdp_learn_with_sensors/issues/28)    
+
+
+https://github.com/DmitriySalnikov/godot_debug_draw_3d  
+```DebugDraw3D.draw_line(line_begin, line_end, Color(1, 1, 0))```
