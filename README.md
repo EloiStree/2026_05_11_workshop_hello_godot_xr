@@ -18,9 +18,9 @@ _Permettre d'apprendre le code avec un deux roues moddables type KS4036_
 [<img width="752" height="436" alt="image" src="https://github.com/user-attachments/assets/bd8ee5e5-46b3-4770-a066-93ffb70764fe" />](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/220)       
 [Documentation ->](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/220)       
 
-**Mesh 3D et Solution**
-[<img width="715" height="348" alt="image" src="https://github.com/user-attachments/assets/dd70223a-618b-4f4e-808f-55096c786730" />](https://github.com/EloiStree/2026_04_11_gdp_learn_with_sensors)
-[<img width="557" height="301" alt="image" src="https://github.com/user-attachments/assets/a826a0ef-517f-47ca-98d5-47adc7f92224" />](https://github.com/EloiStree/2026_04_11_gdp_learn_with_sensors)
+**Graybox du KS4036**
+[<img width="800" alt="image" src="https://github.com/user-attachments/assets/dd70223a-618b-4f4e-808f-55096c786730" />](https://github.com/EloiStree/2026_04_11_gdp_learn_with_sensors)
+[<img width="800"  alt="image" src="https://github.com/user-attachments/assets/a826a0ef-517f-47ca-98d5-47adc7f92224" />](https://github.com/EloiStree/2026_04_11_gdp_learn_with_sensors)
 https://github.com/EloiStree/2026_04_11_gdp_learn_with_sensors
 
 
