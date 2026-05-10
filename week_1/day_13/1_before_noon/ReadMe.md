@@ -1,3 +1,5 @@
+<img width="512" height="256" src="objectif.svg" alt="Objectif of the day"/>
+
 **Objectif :** Pratiquer les tableaux à une dimension
 
 Avec Godot, on simplifie les choses, pas de distinction entre:   

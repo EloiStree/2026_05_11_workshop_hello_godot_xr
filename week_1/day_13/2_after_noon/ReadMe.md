@@ -1,3 +1,5 @@
+<img width="512" height="256" src="objectif.svg" alt="Objectif of the day"/>
+
 
 **Objectif :** Passer de 1D à 2D et vice versa
 

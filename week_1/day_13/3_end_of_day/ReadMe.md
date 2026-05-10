@@ -1,3 +1,5 @@
+<img width="512" height="256" src="objectif.svg" alt="Objectif of the day"/>
+
 **Objectif :** Un mini-jeu NES sur le SSD1306
 
 Essayons de faire un mini-jeu façon NES avec les compétences acquises jusqu’ici.   

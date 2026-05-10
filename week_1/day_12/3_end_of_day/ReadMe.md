@@ -1,3 +1,5 @@
+<img width="512" height="256" src="objectif.svg" alt="Objectif of the day"/>
+
 **Objectif:** Jouez à votre jeu Brackeys 2D avec une manette NES.
 
 Simplement, jouez au jeu que vous avez créé avec une vraie manette NES.    

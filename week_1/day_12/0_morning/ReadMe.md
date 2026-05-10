@@ -1,3 +1,4 @@
+<img width="512" height="256" src="objectif.svg" alt="Objectif of the day"/>
 
 **Objectifs** : Continuer la vidéo de Brackeys en 2D.
 

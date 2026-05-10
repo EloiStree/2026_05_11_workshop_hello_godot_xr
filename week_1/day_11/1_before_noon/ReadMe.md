@@ -1,3 +1,5 @@
+<img width="512" height="256" src="objectif.svg" alt="Objectif of the day"/>
+
 **Objectifs** : Apprendre les bases de Godot  
    
 Le but ici est simple : apprendre à utiliser Godot :    

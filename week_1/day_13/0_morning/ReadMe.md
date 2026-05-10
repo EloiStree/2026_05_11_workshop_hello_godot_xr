@@ -1,3 +1,5 @@
+<img width="512" height="256" src="objectif.svg" alt="Objectif of the day"/>
+
 **Objectif :** installer un écran OLED 128×64 et dire bonjour à GDScript  
 
 [<img width="642" height="577" alt="image" src="https://github.com/user-attachments/assets/1be1ba64-1073-4eca-ac88-d6016e77aca4" />](https://github.com/EloiStree/2026_04_27_gdp_oled_128x64)   

@@ -1,3 +1,5 @@
+<img width="512" height="256" src="objectif.svg" alt="Objectif of the day"/>
+
 **Objectif :** Apprendre à utiliser `_unhandled_input` et `InputMap`
 
 Le but ici n’est pas de tout maîtriser, mais de comprendre le principe des inputs dans Godot et de créer des outils via les signaux pour les écouter.
