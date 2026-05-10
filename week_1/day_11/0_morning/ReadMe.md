@@ -6,7 +6,6 @@ Objectif:
 - XROrigine
 - XRCamera
 
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="64" viewBox="0 0 128 64">
 <rect x="0" y="0" width="1" height="1" fill="#FFA500"/>
 <rect x="1" y="0" width="1" height="1" fill="#FFA500"/>
