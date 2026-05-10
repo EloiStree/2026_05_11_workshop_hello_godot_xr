@@ -1,4 +1,4 @@
-<img width="512" height="256" src="objectif.svg" alt="Objectif of the day"/>
+<img width="512" height="256" src="./objectif.svg" alt="Objectif of the day"/>
 
 
 **Objectifs** : Travailler sur un jeu en 2D dans le casque
