@@ -1,4 +1,5 @@
-![Objectif](objectif.svg)
+<img width="256" height="64" scr="objectif.svg" />  
+
 Objectif:
 - MeshInstance3D     
 - Cube Mesh          
