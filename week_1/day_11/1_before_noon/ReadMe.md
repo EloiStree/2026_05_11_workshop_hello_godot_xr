@@ -13,14 +13,11 @@ Il faut un à trois jours, selon votre niveau, pour faire la vidéo.
 On a aujourd’hui et demain.    
 
 
-[<img width="1060" height="175" alt="image" src="https://github.com/user-attachments/assets/513b998b-e510-47ec-aa87-2a24bc35bb84" />](https://www.youtube.com/watch?v=LOhfqjmasi0&t=1s)   
-[<img width="300" height="168" alt="image" src="https://github.com/user-attachments/assets/88df12d8-53b3-440b-9224-3f537ccf1e28" />](https://www.youtube.com/watch?v=LOhfqjmasi0&t=1s)   
-https://www.youtube.com/watch?v=LOhfqjmasi0   
+[<img width="720" alt="image" src="https://github.com/user-attachments/assets/88df12d8-53b3-440b-9224-3f537ccf1e28" />](https://www.youtube.com/watch?v=LOhfqjmasi0&t=1s)   
+[<img width="720" alt="image" src="https://github.com/user-attachments/assets/513b998b-e510-47ec-aa87-2a24bc35bb84" />](https://www.youtube.com/watch?v=LOhfqjmasi0&t=1s)   
+La video: https://www.youtube.com/watch?v=LOhfqjmasi0   
+Playlist: https://github.com/EloiStree/HelloGodotEngineKeyword/issues/2
 
-
-
-Info Playlist:   
-- https://github.com/EloiStree/HelloGodotEngineKeyword/issues/2
 
 --------------------------
 
@@ -31,6 +28,7 @@ Info Playlist:
 - [ ] [5:32](https://www.youtube.com/watch?v=LOhfqjmasi0&t=332s) How Godot works
 - [ ] [7:31](https://www.youtube.com/watch?v=LOhfqjmasi0&t=451s) Player 1.0
 - [ ] [16:57](https://www.youtube.com/watch?v=LOhfqjmasi0&t=1017s) Worldbuilding 1.0
+- [ ] Objectif: 🚩
 - [ ] [23:28](https://www.youtube.com/watch?v=LOhfqjmasi0&t=1408s) Platforms
 - [ ] [28:20](https://www.youtube.com/watch?v=LOhfqjmasi0&t=1700s) Pickups
 - [ ] [34:20](https://www.youtube.com/watch?v=LOhfqjmasi0&t=2060s) Dying 1.0
