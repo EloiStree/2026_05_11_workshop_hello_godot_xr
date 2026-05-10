@@ -1,4 +1,4 @@
-<img width="256" height="64" scr="objectif.svg" />  
+<img width="256" height="128" src="objectif.svg" />
 
 Objectif:
 - MeshInstance3D     
