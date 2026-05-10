@@ -1,3 +1,15 @@
+Objectif:
+- MeshInstance3D     
+- Cube Mesh          
+- Light
+- Camera
+- XROrigine
+- XRCamera
+
+
+--------------------------
+
+
 **Objectif :** Se familiariser avec la configuration XR de Godot sur Quest 3 puis sur PC
 
 Configurer Godot sur Quest ou sur PC est extrêmement rapide comparé à d’autres moteurs.
