@@ -1,12 +1,10 @@
-<img width="256" height="128" src="objectif.svg" />
-
-Objectif:
-- MeshInstance3D     
-- Cube Mesh          
-- Light
-- Camera
-- XROrigine
-- XRCamera
+<img width="256" height="128" src="objectif.svg" />   
+- [ ] MeshInstance3D     
+- [ ] Cube Mesh          
+- [ ] Light
+- [ ] Camera
+- [ ] XROrigine
+- [ ] XRCamera
 
 
 --------------------------
