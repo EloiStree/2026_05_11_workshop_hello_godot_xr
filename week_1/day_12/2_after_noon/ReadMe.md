@@ -41,6 +41,12 @@ Mais pour un prototype, surtout au début d’un projet, il est parfois plus sim
 --------
 
 
+Une video pour plus tard: Cliquer sur un Area3D     
+[<img width="1443" height="813" alt="image" src="https://github.com/user-attachments/assets/4f5ceb7a-412d-4f20-92c3-bd4941a71d60" />](https://youtu.be/LmxfQG9vquw?t=206)   
+https://youtu.be/LmxfQG9vquw?t=206      
+
+
+
 **Une solution:**
 
 Pour la souris:
