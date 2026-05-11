@@ -6,6 +6,9 @@ Apprenons à coder à notre rythme via un SSD1306 :
 [<img width="449" height="443" alt="image" src="https://github.com/user-attachments/assets/2b9e5c66-0365-4333-96cf-10586fa50ffc" />](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/3)
 [https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/3](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/3)
 
+
+> Pour le fun, Croix Vert: https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/289
+
 ---
 
 # Matin : Setup du faux SSD1306
