@@ -1,5 +1,9 @@
 <img width="586" height="118" alt="image" src="https://github.com/user-attachments/assets/6a7fcd86-dfbd-4e60-9b2c-3edf106c561e" />
 
+[<img width="1203" height="631" alt="image" src="https://github.com/user-attachments/assets/c56e9c10-bbdc-4754-9435-405306c45813" />](https://www.youtube.com/watch?v=u66RwHdpeuQ)
+https://www.youtube.com/watch?v=u66RwHdpeuQ
+
+
 
 # Un seul objectif : Pick-up
 
