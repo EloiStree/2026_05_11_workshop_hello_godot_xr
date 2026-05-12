@@ -42,4 +42,7 @@ Une SUV
 Un drone:
 - https://github.com/EloiStree/2025_04_15_gdp_kid_toy_ovni_code
 
-- -
+
+Draw
+- https://github.com/EloiStree/2024_08_05_gdp_uv_drawable_drones
+- https://github.com/EloiStree/2024_09_15_gdp_uv_drawable_controller
