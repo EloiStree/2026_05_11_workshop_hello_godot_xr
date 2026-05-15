@@ -17,6 +17,12 @@ Prenons un cube et déplaçons-le :
 [<img width="896" height="672" alt="image" src="https://github.com/user-attachments/assets/15affd35-dcd6-4d2e-adff-78d5e017688c" />](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/266)
 https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/266
 
+
+## Quater et deux roues ?
+
+https://github.com/EloiStree/HelloTwoWheelsCarKS4036
+https://github.com/EloiStree/2025_10_19_gdp_kid_toy_skid_steering/tree/main
+
 ---------------------------
 
 
