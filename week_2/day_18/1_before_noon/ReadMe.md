@@ -12,6 +12,14 @@ Doc:
 https://docs.godotengine.org/en/latest/tutorials/xr/xr_action_map.html
 
 
+bool button
+float axis and triger
+Vector2 joysticks
+Pose position
+
+`The Pose type defines a spatially tracked input. Multiple "pose" inputs are available in OpenXR: aim, grip and palm. Your XRController3D node is automatically positioned based on the pose action assigned to pose property of this node. More about poses later.`
+
+
 
 
 <img width="1635" height="1114" alt="image" src="https://github.com/user-attachments/assets/6bcbe0a0-ea1d-4fe1-864b-7df362067eb2" />
