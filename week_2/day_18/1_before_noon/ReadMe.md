@@ -8,7 +8,8 @@ Essayons de lire tous les inputs disponibles et fonctionnels dans Godot (sur PC 
 
 
 
-
+Doc:
+https://docs.godotengine.org/en/latest/tutorials/xr/xr_action_map.html
 
 
 
