@@ -79,3 +79,11 @@ static func get_trigger_left_value() -> float:
 Origin XR
 
 https://docs.godotengine.org/en/latest/tutorials/xr/xr_room_scale.html
+
+
+-------
+
+Hand tracking
+
+https://docs.godotengine.org/en/stable/tutorials/xr/openxr_hand_tracking.html#introduction
+
