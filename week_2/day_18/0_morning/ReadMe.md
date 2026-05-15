@@ -12,10 +12,133 @@ Prenons un cube et déplaçons-le :
 
 
 
+Une voiture a deux ou a quatre roue vendu sur amazons, cest compose de 4 bouttons pour faire des economies.
+Up Left, Up Right, Down Left , Down Right.
 
 
-[<img width="896" height="672" alt="image" src="https://github.com/user-attachments/assets/15affd35-dcd6-4d2e-adff-78d5e017688c" />](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/266)
-https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/266
+Si on traduisait cela avec un clavier ca ressemblerai a cela:
+
+```gdscript
+class_name SkidCarDefaultInput
+extends Node
+
+@export var is_enabled: bool = true
+# --- 4 motor control booleans ---
+@export var button_left_front_on: bool = false
+@export var button_right_front_on: bool = false
+@export var button_left_back_on: bool = false
+@export var button_right_back_on: bool = false
+
+# --- Key bindings (customizable in Inspector) ---
+@export var key_left_front: Key = KEY_W
+@export var key_right_front: Key = KEY_E
+@export var key_left_back: Key = KEY_S
+@export var key_right_back: Key = KEY_D
+
+# --- Individual signals for each motor ---
+signal on_left_front(is_on: bool)
+signal on_right_front(is_on: bool)
+signal on_left_back(is_on: bool)
+signal on_right_back(is_on: bool)
+
+# --- Internal tracking of pressed states ---
+var pressed_keys: Dictionary = {}
+
+func _ready() -> void:
+	# Initialize all keys as not pressed
+	pressed_keys = {
+		key_left_front: false,
+		key_right_front: false,
+		key_left_back: false,
+		key_right_back: false
+	}
+
+func _input(event: InputEvent) -> void:
+	if not is_enabled:
+		return
+	if event is InputEventKey:
+		if event.keycode in pressed_keys:
+			if pressed_keys[event.keycode] != event.pressed:
+				pressed_keys[event.keycode] = event.pressed
+				_update_booleans_and_emit(event.keycode, event.pressed)
+
+func _update_booleans_and_emit(keycode: Key, is_pressed: bool) -> void:
+	match keycode:
+		key_left_front:
+			button_left_front_on = is_pressed
+			on_left_front.emit(is_pressed)
+		key_right_front:
+			button_right_front_on = is_pressed
+			on_right_front.emit(is_pressed)
+		key_left_back:
+			button_left_back_on = is_pressed
+			on_left_back.emit(is_pressed)
+		key_right_back:
+			button_right_back_on = is_pressed
+			on_right_back.emit(is_pressed)
+
+```
+
+L avantage de ce code c est qu il est portatif.
+Le desavantage c est qu il prend pas en compte les manettes et autres inputs que le clavier.
+On pourrait utilise le Input map action de Godot.
+
+
+``` gdscript
+class_name SkidCarDefaultInputMap
+extends Node
+
+
+@export var is_enabled: bool = true
+@export var action_left_front: String = "left_front"
+@export var action_right_front: String = "right_front"
+@export var action_left_back: String = "left_back"
+@export var action_right_back: String = "right_back"
+
+var button_left_front_on := false
+var button_right_front_on := false
+var button_left_back_on := false
+var button_right_back_on := false
+
+signal on_left_front(is_on: bool)
+signal on_right_front(is_on: bool)
+signal on_left_back(is_on: bool)
+signal on_right_back(is_on: bool)
+
+
+func set_left_front_on(is_on: bool) -> void:
+	if button_left_front_on != is_on:
+		button_left_front_on = is_on
+		on_left_front.emit(is_on)
+func set_right_front_on(is_on: bool) -> void:
+	if button_right_front_on != is_on:
+		button_right_front_on = is_on
+		on_right_front.emit(is_on)
+func set_left_back_on(is_on: bool) -> void:
+	if button_left_back_on != is_on:	
+		button_left_back_on = is_on
+		on_left_back.emit(is_on)
+func set_right_back_on(is_on: bool) -> void:
+	if button_right_back_on != is_on:
+		button_right_back_on = is_on
+		on_right_back.emit(is_on)
+
+func _process(_delta: float) -> void:
+	if not is_enabled:
+		return
+	set_left_front_on(get_value(action_left_front))
+	set_right_front_on(get_value(action_right_front))
+	set_left_back_on(get_value(action_left_back))
+	set_right_back_on(get_value(action_right_back))
+	
+
+func get_value(name:String) -> bool:
+	if InputMap.has_action(name):
+		return Input.is_action_pressed(name)
+	return false
+
+```
+
 
 
 ## Quater et deux roues ?
