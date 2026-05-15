@@ -7,6 +7,8 @@ Nous devons créer un script qui communique avec les contrôleurs 3D gauche et d
 Essayons de lire tous les inputs disponibles et fonctionnels dans Godot (sur PC et Android).
 
 
+Use Label3D to display text in Godot XR Scene:
+to add
 
 Doc:
 https://docs.godotengine.org/en/latest/tutorials/xr/xr_action_map.html
