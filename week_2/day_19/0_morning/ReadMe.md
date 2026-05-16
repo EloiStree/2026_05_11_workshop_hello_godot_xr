@@ -15,3 +15,9 @@ Le but ici n est pas de comprendre directement, mais de voir la gamme des possib
 
 
 Une fois que vous avez assez decouvert la demo, passez la videos sur le pickup.
+
+
+[<img width="909" height="928" alt="image" src="https://github.com/user-attachments/assets/ec3e19dd-16ab-43c3-ad08-a5971b2a00af" />](https://youtu.be/HwN3g9Mq0f8?t=15)
+https://youtu.be/HwN3g9Mq0f8?t=15
+
+
