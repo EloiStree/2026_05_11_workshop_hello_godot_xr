@@ -140,7 +140,24 @@ func get_value(name:String) -> bool:
 ```
 
 
+
 --------------------------- 
+
+
+## Base du mouvement
+
+### Avec Transform3D
+
+
+``` gdscript
+
+```
+
+### Avec character Controller
+
+``` gdscript
+
+```
 
 
 ## Quater et deux roues ?
