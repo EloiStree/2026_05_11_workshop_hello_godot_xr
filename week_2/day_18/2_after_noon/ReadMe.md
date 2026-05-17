@@ -40,7 +40,7 @@ https://youtu.be/LrsTBWf6Wsc?t=1057
 
 Une solution:
 ``` gdscript
-class_name SensorKS4036Move
+class_name KS4036Character
 extends Node
 
 
@@ -52,7 +52,6 @@ signal on_left_wheel_degree_per_second_updated(degree_per_second: float)
 signal on_right_wheel_degree_per_second_updated(degree_per_second: float)
 signal on_left_wheel_current_rotation_updated(rotation_in_degree_total: float)
 signal on_right_wheel_current_rotation_updated(rotation_in_degree_total: float)
-
 
 
 @export_range(-1.0, 1.0,0.0001) var _left_wheel_percent_power: float = 0.0
@@ -119,6 +118,7 @@ func set_right_wheel_percent_power(percent_power: float) -> void:
 	_right_wheel_percent_power = clamp(percent_power, -1.0, 1.0)
 
 
+
 func set_both_wheels_percent_power(left_percent_power: float, right_percent_power: float) -> void:
 	set_left_wheel_percent_power(left_percent_power)
 	set_right_wheel_percent_power(right_percent_power)
@@ -157,18 +157,17 @@ func _physics_process(delta: float) -> void:
 	
 	# === Apply rotation ===
 	character_to_move.rotation.y += angular_velocity * delta
-	
-	# === Apply forward movement ===
-	# Most vehicle/robot models face -Z in Godot
-	var forward_direction = -character_to_move.transform.basis.z
-	character_to_move.velocity = forward_direction * linear_velocity
-
 
 	## add a fake gravity of linear
 	character_to_move.velocity.y -= fake_gravity
 
+	# Apply linear velocity in forward direction
+	var forward_direction = -character_to_move.global_transform.basis.z
+	character_to_move.velocity.x = forward_direction.x * linear_velocity
+	character_to_move.velocity.z = forward_direction.z * linear_velocity
 	
 	character_to_move.move_and_slide()
+
 	
 	# if Engine.is_editor_hint() or OS.is_debug_build():
 	# 	if abs(_left_wheel_percent_power) > 0.01 or abs(_right_wheel_percent_power) > 0.01:
@@ -190,6 +189,37 @@ func _physics_process(delta: float) -> void:
 	
 	on_left_wheel_current_rotation_updated.emit(left_rotation_in_degree_total)
 	on_right_wheel_current_rotation_updated.emit(right_rotation_in_degree_total)
+
+
+
+func set_motor_left_foward_on() -> void:
+	set_left_wheel_percent_power(1.0)
+
+func set_motor_left_backward_on() -> void:
+	set_left_wheel_percent_power(-1.0)
+
+func set_motor_right_forward_on() -> void:
+	set_right_wheel_percent_power(1.0)  
+
+func set_motor_right_backward_on() -> void:
+	set_right_wheel_percent_power(-1.0)
+
+func set_motor_left_forward(is_on: bool) -> void:
+	set_left_wheel_percent_power(1.0 if is_on else 0.0)
+
+func set_motor_left_backward(is_on: bool) -> void:
+	set_left_wheel_percent_power(-1.0 if is_on else 0.0)
+
+func set_motor_right_forward(is_on: bool) -> void:
+	set_right_wheel_percent_power(1.0 if is_on else 0.0)
+
+func set_motor_right_backward(is_on: bool) -> void:
+	set_right_wheel_percent_power(-1.0 if is_on else 0.0)
+
+func set_motors_off() -> void:
+	set_left_wheel_percent_power(0.0)
+	set_right_wheel_percent_power(0.0)
+
 
 
 
