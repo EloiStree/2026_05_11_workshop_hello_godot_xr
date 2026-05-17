@@ -8,13 +8,11 @@ Créez un code permettant d’afficher :
 * **les inputs des manettes du Quest**
 * Optionnel :
 
-  * les inputs du clavier au format `Input`
-  * les inputs du gamepad via `Input`
+  * les inputs du clavier via `_input`
+  * les inputs du gamepad via `_input`
   * la position et le delta de la souris
 * Challenge :
-
   * Utiliser les caractères Unicode pour détecter :
-
     * un [barcode scanner](https://www.amazon.com.be/s?k=scan+code)
     * un [badge NFC](https://www.amazon.com.be/s?k=badge+nfc)
   * Cela permettra de charger des scènes via un identifiant unique.
