@@ -1,8 +1,9 @@
 
 ## Fin de journée : Débogueur SSD1306
 
-<img width="713" height="490" alt="image" src="https://github.com/user-attachments/assets/de01e628-38e6-4134-935d-aeafd95a9e21" />     
-Nous avons appris à utiliser le SSD1306, car cela nous permettra de déboguer en XR.  
+<img width="713" height="490" alt="image" src="https://github.com/user-attachments/assets/de01e628-38e6-4134-935d-aeafd95a9e21" />       
+
+Nous avons appris à utiliser le SSD1306, car cela nous permettra de déboguer en XR.    
 
 Créez un code permettant d’afficher :
 * les inputs des manettes du Quest
