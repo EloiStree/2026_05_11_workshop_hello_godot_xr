@@ -53,9 +53,7 @@ Voici un exemple :
 
 ```gdscript
 extends Node
-
 @onready var xr_origin_from_unique_path: XROrigin3D = $%XROrigin3D
-
 @export var left_controller_path: NodePath = "XROrigin3D/LeftController"
 @export var right_controller_path: NodePath = "XROrigin3D/RightController"
 @export var camera_path: NodePath = "XROrigin3D/XRCamera3D"
@@ -65,29 +63,20 @@ extends Node
 @export var xr_camera: XRCamera3D
 @export var xr_left_controller: XRController3D
 @export var xr_right_controller: XRController3D
-
 var xr_interface: XRInterface
 
 func _ready() -> void:
-
-	xr_origin = xr_origin_from_unique_path
-	
-	if xr_origin == null:
+	xr_origin =xr_origin_from_unique_path
+	if xr_origin==null:
 		push_error("You are not in an XR scene with Unique Name Access on Origin")
-		return
-
-	# Get references safely
+		return 
 	xr_camera = get_node_or_null(camera_path) as XRCamera3D
 	xr_left_controller = get_node_or_null(left_controller_path) as XRController3D
 	xr_right_controller = get_node_or_null(right_controller_path) as XRController3D
-
-	# Optional: fallback to direct children search
 	if not xr_camera:
 		xr_camera = xr_origin.get_node_or_null("XRCamera3D") as XRCamera3D
-
 	if not xr_left_controller:
 		xr_left_controller = xr_origin.get_node_or_null("LeftController") as XRController3D
-
 	if not xr_right_controller:
 		xr_right_controller = xr_origin.get_node_or_null("RightController") as XRController3D
 ```
@@ -102,7 +91,6 @@ En revanche, vous savez que vous avez besoin :
 Vous pouvez donc scanner la scène de manière plus brutale afin de les trouver automatiquement à votre arrivée.
 
 ```gdscript
-class_name ScanForXrControllerAndOrigin
 extends Node
 
 @export_group("Found")
@@ -112,77 +100,46 @@ extends Node
 @export var xr_right_controller: XRController3D
 
 func _ready() -> void:
-	# If not all references are set in the editor,
-	# try to find them automatically
-
-	if not (xr_origin and xr_camera and xr_left_controller and xr_right_controller):
-		var all_nodes := get_all_nodes_of_scene()
-		find_xr_elements_in_nodes(all_nodes)
-
-	# Optional validation
+	var all_nodes := get_all_nodes_of_scene()
+	find_xr_elements_in_nodes(all_nodes)
 	if not xr_origin:
 		push_warning("XR Origin not found!")
-
 	if not xr_camera:
 		push_warning("XR Camera not found!")
-
 	if not xr_left_controller:
 		push_warning("XR Left Controller not found!")
-
 	if not xr_right_controller:
 		push_warning("XR Right Controller not found!")
 
 func get_all_nodes_of_scene() -> Array[Node]:
 	var nodes: Array[Node] = []
-
 	_collect_nodes_recursive(get_tree().root, nodes)
-
 	return nodes
 
-func _collect_nodes_recursive(
-	node: Node,
-	collected: Array[Node]
-) -> void:
-
+func _collect_nodes_recursive(node: Node, collected: Array[Node]) -> void:
 	if not node:
 		return
-
 	collected.append(node)
-
 	for child in node.get_children():
 		_collect_nodes_recursive(child, collected)
-
+		
 func find_xr_elements_in_nodes(nodes: Array[Node]) -> void:
 	for node in nodes:
-
 		if not node:
 			continue
-
 		if not xr_origin and node is XROrigin3D:
 			xr_origin = node
-
 		elif not xr_camera and node is XRCamera3D:
 			xr_camera = node
-
 		elif node is XRController3D:
-
 			var controller := node as XRController3D
-
-			if controller.tracker == "left_hand" \
-			or controller.name.to_lower().contains("left"):
-
+			if controller.tracker == "left_hand" or controller.name.to_lower().contains("left"):
 				if not xr_left_controller:
 					xr_left_controller = controller
-
-			elif controller.tracker == "right_hand" \
-			or controller.name.to_lower().contains("right"):
-
+			elif controller.tracker == "right_hand" or controller.name.to_lower().contains("right"):
 				if not xr_right_controller:
 					xr_right_controller = controller
-
-		if xr_origin \
-		and xr_camera \
-		and xr_left_controller \
-		and xr_right_controller:
+		if xr_origin and xr_camera and xr_left_controller and xr_right_controller:
 			break
+
 ```
