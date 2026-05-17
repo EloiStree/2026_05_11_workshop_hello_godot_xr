@@ -161,7 +161,7 @@ func _on_area_exited(area: Area3D) -> void:
 ```
 
 
-Detect a touch on Area3D
+Note pour le debug: Detecter une touche de souris ou de doight sur le ecran 2D.
 ``` gdscript
 class_name MicroBitTouchableArea3D
 extends Area3D
