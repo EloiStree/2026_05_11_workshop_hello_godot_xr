@@ -151,10 +151,10 @@ func find_xr_elements_in_nodes(nodes: Array[Node]) -> void:
 
 -----------------
 
-Une solution:
-<img width="713" height="490" alt="image" src="https://github.com/user-attachments/assets/3b3f2383-2661-4020-a21b-41d808f79526" />
-
-```gdscript
+Une solution:     
+<img width="713" height="490" alt="image" src="https://github.com/user-attachments/assets/3b3f2383-2661-4020-a21b-41d808f79526" />    
+     
+```gdscript   
 class_name E13ScreenLayerXrInputDebug
 extends SSD1306ModLiteLayerWithTagName
 
