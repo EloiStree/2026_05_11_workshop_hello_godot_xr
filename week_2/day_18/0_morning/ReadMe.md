@@ -7,6 +7,7 @@ Prenons un cube et déplaçons-le :
 * de l’avant vers l’arrière
 * avec des vitesses de rotation et de déplacement
 
+**Junior :** Tourner, avancer, reculer. C'est deja bien 😋
 **Medior :** Essayez de faire tourner sur le pivot de la roue à gauche et à droite.
 **Senior :** Observez le KS4036 et déplacez-le à l’aide de la trigonométrie, avec des vitesses de rotation de -1.0 à 1.0.
 
