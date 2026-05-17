@@ -47,3 +47,9 @@ Regardez la façon dont j’ai codé mon outil de dessin et faites le vôtre pou
 * [Teaching Simulator](https://youtu.be/s3052ARNaeo?t=25)
 
 
+---------
+
+
+[<img width="523" height="633" alt="image" src="https://github.com/user-attachments/assets/10c8a7eb-fd45-4d6c-876f-005419a1b9b1" />](https://www.youtube.com/shorts/u6GYy9Ai_Mo?t=27&feature=share)
+https://www.youtube.com/shorts/u6GYy9Ai_Mo?t=27&feature=share   
+
