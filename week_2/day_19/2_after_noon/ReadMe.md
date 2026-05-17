@@ -35,6 +35,9 @@ Regardez la façon dont j’ai codé mon outil de dessin et faites le vôtre pou
 * Dessiner des lignes noires sur une texture
   * Faire un mini-jeu : suivre la ligne
   * https://www.youtube.com/results?search_query=line+follow++robot
+  * Voir
+    * https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/249
+    * https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/71 
 * Dessiner du vert clair sur du foncé
   * Faire un jeu de tondeuse automatique
   * https://www.youtube.com/results?search_query=tondeuse+autonome
