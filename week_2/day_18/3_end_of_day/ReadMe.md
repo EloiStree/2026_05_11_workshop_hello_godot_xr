@@ -21,7 +21,7 @@ Par facilité, vous pouvez aussi ne pas utiliser le SSD1306 et utiliser simpleme
 
 (Nico peut utiliser le `CanvasLayer` avec les UI de Godot s’il veut 😉)
 
-Le but ici est de vous laisser le temps de vous familiariser avec le système `Input` de votre choix.
+Le but ici est de vous laisser le temps de vous familiariser avec le système d'Action Set et `_input` de votre choix.
 
 ---
 
@@ -43,10 +43,10 @@ Alors vous pouvez écrire ceci :
 `Access As Unique Name`
 
 ```gdscript
-@onready var left: XRNode3D = $LeftController
-@onready var right: XRNode3D = $RightController
-@onready var origin: XRNode3D = $XRCamera3D
-@onready var camera: XRNode3D = $XROrigin3D
+@onready var left: XRNode3D = $%LeftController
+@onready var right: XRNode3D = $%RightController
+@onready var origin: XRNode3D = $%XRCamera3D
+@onready var camera: XRNode3D = $%XROrigin3D
 ```
 
 Voici un exemple :
@@ -92,13 +92,11 @@ func _ready() -> void:
 		xr_right_controller = xr_origin.get_node_or_null("RightController") as XRController3D
 ```
 
-Dans le code d’un **mod layer chargé depuis le web**, vous ne connaissez pas forcément la convention de nommage choisie dans le projet dans lequel vous arrivez.
-
+Dans le code d’un **mod layer** chargé depuis le web, vous ne connaissez pas forcément la convention de nommage choisie dans le projet dans lequel vous arrivez.
 En revanche, vous savez que vous avez besoin :
-
 * d’un `XRController3D` gauche
 * d’un `XRController3D` droit
-* d’une caméra XR
+* d’une `XRCamera3D`
 * d’un `XROrigin3D`
 
 Vous pouvez donc scanner la scène de manière plus brutale afin de les trouver automatiquement à votre arrivée.
