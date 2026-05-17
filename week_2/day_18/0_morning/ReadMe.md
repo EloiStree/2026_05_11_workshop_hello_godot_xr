@@ -1,4 +1,24 @@
 
+## Note : Le 18, il y avait une grève
+
+Comme la majorité des personnes étaient absentes ce jour-là, nous nous sommes davantage concentrés sur le fait de faire fonctionner Godot sur PC et Quest et terminer la video de Brackeys.
+
+L’objectif de cette journée,du 18 , était de découvrir les inputs.
+Aujourd’hui,de base, nous allions setup Godot XR nous concentrer sur les inputs du Quest 3.
+
+Du code est disponible ici :
+[GitHub repository](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/tree/main/week_1/day_12/2_after_noon?utm_source=chatgpt.com)
+ 
+De fait, aujourd’hui, ceux qui n’ont pas encore appris à configurer Godot pour la XR sont invités à s’y essayer.     
+Pour ceux qui ont déjà mis en place Godot en XR, l’objectif sera plutôt de se concentrer sur les systèmes d’inputs.     
+
+Demain, la journée entière sera consacrée à la pratique de Godot XR Tool autour de l’interaction avec des objets 3D (pickup) à travers un tutoriel vidéo Godot.         
+Je vous laisserai du temps ce mardi pour revoir et pratiquer à nouveau un sujet de votre choix :     
+les inputs, la configuration (setup), ou tout autre point que vous souhaitez approfondir.  
+
+
+-----------------
+
 ## Matin : Passons de la 2D à la 3D
 
 Prenons un cube et déplaçons-le :
