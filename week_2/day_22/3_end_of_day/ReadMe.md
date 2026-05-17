@@ -12,7 +12,8 @@ https://www.creativebloq.com/how-to/use-gravity-sketch
 Toutes les Area3D présentes dans cette zone et appartenant au groupe ciblé recevront les instructions suivantes :
 * `mod_on_turn_on()`
 * `mod_on_turn_off()`
-Ou simplement utiliser des methodes de Godot:
+   
+Ou simplement utiliser des methodes de Godot:   
 - `queue_free()`  
 - `hide()`  
 - `show()`
