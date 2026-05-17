@@ -1,41 +1,36 @@
 
 ## Avant-midi : Meta Input
 
-Les inputs de Meta ne sont pas standardisés pour l’InputMap de Godot.
-Nous devons créer un script qui communique avec les contrôleurs 3D gauche et droit.
+Les inputs Meta ne sont pas standardisés via l’InputMap de Godot.   
+Nous devons donc créer un script capable de communiquer avec les contrôleurs 3D gauche et droit.   
 
-Essayons de lire tous les inputs disponibles et fonctionnels dans Godot (sur PC et Android).
+Essayons de lire tous les inputs disponibles et fonctionnels dans Godot (sur PC et Android).   
 
+Utiliser `Label3D` pour afficher du texte dans une scène XR Godot : à ajouter.   
 
-Use Label3D to display text in Godot XR Scene:
-to add
+Documentation :
+[https://docs.godotengine.org/en/latest/tutorials/xr/xr_action_map.html](https://docs.godotengine.org/en/latest/tutorials/xr/xr_action_map.html)
 
-Doc:
-https://docs.godotengine.org/en/latest/tutorials/xr/xr_action_map.html
+Types d’inputs :
 
+* booléen (bouton)
+* float (axe et trigger)
+* Vector2 (joysticks)
+* pose (position / orientation)
 
-bool button
-float axis and triger
-Vector2 joysticks
-Pose position
+Je n’aime pas le principe des paths, car cela empêche de renommer les éléments facilement.
+Mais notez que vous pouvez tout de même les utiliser et tagger l’origine.
 
-`The Pose type defines a spatially tracked input. Multiple "pose" inputs are available in OpenXR: aim, grip and palm. Your XRController3D node is automatically positioned based on the pose action assigned to pose property of this node. More about poses later.`
-
-
-Je n aime pas le principe des paths car ca empeche de renommer les elements.
-Mais noter que vous pouvez utiliser ceci et tagger l origin.
 
 ``` gdscript
 # Helper variables to keep our code readable
 @onready var origin_node = $%XROrigin3D
 @onready var camera_node = $%XROrigin3D/XRCamera3D
-
-
 ```
 
 
 ``` gdscript
-## Listen to a button
+# Listen to a button
 static func get_right_trigger_touch() -> bool:
 	if not _static_right_hand: return false
 	for name in ["trigger_touch"]:
@@ -45,7 +40,7 @@ static func get_right_trigger_touch() -> bool:
 ```
 
 ```gdscript
-## Listen to the joystick
+# Listen to the joystick
 static func get_right_joystick_2d_value() -> Vector2:
 	if not _static_right_hand:
 		return Vector2.ZERO
@@ -58,7 +53,7 @@ static func get_right_joystick_2d_value() -> Vector2:
 ```
 
 ``` gdscript
-## Listen to an axis
+# Listen to an axis
 ## Returns trigger squeeze value on the left controller (0.0 = not pressed, 1.0 = fully pressed)
 static func get_trigger_left_value() -> float:
 	if not _static_left_hand: return 0.0
@@ -75,16 +70,9 @@ static func get_trigger_left_value() -> float:
 
 ---------
 
-Origin XR
-
-https://docs.godotengine.org/en/latest/tutorials/xr/xr_room_scale.html
-
-
--------
-
-Hand tracking
-
-https://docs.godotengine.org/en/stable/tutorials/xr/openxr_hand_tracking.html#introduction
+Hors sujet pour cet atelier, mais à savoir :
+Origin XR: https://docs.godotengine.org/en/latest/tutorials/xr/xr_room_scale.html
+Hand tracking: https://docs.godotengine.org/en/stable/tutorials/xr/openxr_hand_tracking.html#introduction
 
 
 
@@ -101,7 +89,7 @@ class_name InputXrStaticSingleton
 extends Node
 
 @export var local_origin: XROrigin3D
-@export var local_head: XRController3D     # Usually the camera rig / head tracker
+@export var local_head: XRController3D    
 @export var local_left_controller: XRController3D
 @export var local_right_controller: XRController3D
 @export var local_camera_3d: XRCamera3D
