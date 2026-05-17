@@ -17,31 +17,11 @@ Attachez un **Nerf Gun** à votre main gauche et un **sabre laser** (un cylindre
 
 ---
 
-### Exercice 1.1 : Des cibles
+### Exercice 1: Des cibles
 
 Ajoutez des cubes proches du joueur et des cylindres plus éloignés pour représenter des cibles.
 
 Lorsque les cibles sont touchées, elles doivent disparaître.
-
----
-
-### Extensions (à réaliser après réussite de l’exercice 1.1)
-
-**Exercice 1.2 : filtrage par groupe**
-Ne détecter les objets que s’ils appartiennent à un groupe spécifique.
-
-**Exercice 1.3 : filtrage par layer**
-Ne détecter les objets que s’ils sont sur un layer précis.
-
-**Exercice 1.4 : filtrage par script**
-Ne détecter que les objets possédant un script attendu.
-
-**Exercice 1.5 : vérification dans les enfants**
-Ne détecter que si un objet ou ses enfants possèdent un script spécifique.
-
-**Exercice 1.6 : vérification dans les parents**
-Ne détecter que si un objet ou ses parents possèdent un script spécifique.
-
 
 
 ------------------
