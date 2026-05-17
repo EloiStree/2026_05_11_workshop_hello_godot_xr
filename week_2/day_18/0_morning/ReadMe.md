@@ -6,8 +6,7 @@ Comme la majorité des personnes étaient absentes ce jour-là, nous nous sommes
 L’objectif de cette journée,du 18 , était de découvrir les inputs.
 Aujourd’hui,de base, nous allions setup Godot XR nous concentrer sur les inputs du Quest 3.
 
-Du code est disponible ici :
-[GitHub repository](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/tree/main/week_1/day_12/2_after_noon?utm_source=chatgpt.com)
+Du code est disponible {ici](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/tree/main/week_1/day_12/2_after_noon).
  
 De fait, aujourd’hui, ceux qui n’ont pas encore appris à configurer Godot pour la XR sont invités à s’y essayer.     
 Pour ceux qui ont déjà mis en place Godot en XR, l’objectif sera plutôt de se concentrer sur les systèmes d’inputs.     
