@@ -27,9 +27,8 @@ Mais noter que vous pouvez utiliser ceci et tagger l origin.
 
 ``` gdscript
 # Helper variables to keep our code readable
-@onready var origin_node = $XROrigin3D
-@onready var camera_node = $XROrigin3D/XRCamera3D
-@onready var neck_position_node = $XROrigin3D/XRCamera3D/Neck
+@onready var origin_node = $%XROrigin3D
+@onready var camera_node = $%XROrigin3D/XRCamera3D
 
 
 ```
