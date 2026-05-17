@@ -5,8 +5,9 @@ On met en place une sphère scalable, dans l’esprit de ce qu’on peut voir da
 https://www.creativebloq.com/how-to/use-gravity-sketch    
 
 
- Voir : [has_method(string)](https://forum.godotengine.org/t/what-is-the-replacement-of-gdscript-has-method-the-doc-is-short-and-unclear-to-me/39471) et .call()
- _pas confondre avec les [callable](https://docs.godotengine.org/fr/4.x/classes/class_callable.html) sujet trop bien mais hard si on debut_   
+ Voir : [has_method(string)](https://forum.godotengine.org/t/what-is-the-replacement-of-gdscript-has-method-the-doc-is-short-and-unclear-to-me/39471) et .call()   
+ 
+ _Pas confondre avec les [callable](https://docs.godotengine.org/fr/4.x/classes/class_callable.html) sujet trop bien mais hard si on debut 😅_      
 
 Toutes les Area3D présentes dans cette zone et appartenant au groupe ciblé recevront les instructions suivantes :
 * `mod_on_turn_on()`
