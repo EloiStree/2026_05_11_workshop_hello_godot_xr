@@ -1,27 +1,27 @@
-
-
 ## Après-midi : Voiture à deux roues
 
-Vous avez appris briefement a observer les inputs d un clavier, dun game pad et du Quest3.
-Et l'on a creer une voiture ultra simple: tourner,avancer.
+Vous avez appris brièvement à observer les inputs d’un clavier, d’un gamepad et du Quest 3.
+Et nous avons créé une voiture ultra simple : tourner, avancer.
 
-Essayez de faire un code qui utilise le X,Y,A,B du Quest et un autre input classique de debug pour faire avancer votre voiture.
+Essayez de faire un code qui utilise les boutons X, Y, A, B du Quest et un autre input classique de debug pour faire avancer votre voiture.
 
+Si vous aimez les maths, essayez de faire un code de voiture qui permet de bouger avec les axes verticaux des joysticks gauche et droit.
 
-Si vous aimez les maths essayers de faire un code de voiture qui permet de bouger avec les axes verticaux des joysticks gauche et droite.
-Voir cette video sur: Differencial drive robot
-[<img width="813" height="384" alt="image" src="https://github.com/user-attachments/assets/c5999938-cf33-40d5-9885-3b0a63a80746" />
-](https://youtu.be/YxuJFQZh94Q?t=75)  
-https://youtu.be/YxuJFQZh94Q?t=75  
-D'autre video sur le sujet:
-- https://www.youtube.com/watch?v=fx6bxPJ6BEs
-- https://youtu.be/LrsTBWf6Wsc?t=2
+Voir cette vidéo sur : Differential Drive Robot
+[<img width="813" height="384" alt="image" src="https://github.com/user-attachments/assets/c5999938-cf33-40d5-9885-3b0a63a80746" />](https://youtu.be/YxuJFQZh94Q?t=75)
+[https://youtu.be/YxuJFQZh94Q?t=75](https://youtu.be/YxuJFQZh94Q?t=75)
+
+D’autres vidéos sur le sujet :
+
+* [https://www.youtube.com/watch?v=fx6bxPJ6BEs](https://www.youtube.com/watch?v=fx6bxPJ6BEs)
+* [https://youtu.be/LrsTBWf6Wsc?t=2](https://youtu.be/LrsTBWf6Wsc?t=2)
 
 [<img width="543" height="295" alt="image" src="https://github.com/user-attachments/assets/e6bdf9b5-3426-49d6-9011-6c2d5f816456" />](https://youtu.be/LrsTBWf6Wsc?t=449)
-https://youtu.be/LrsTBWf6Wsc?t=449   
-[<img width="697" height="317" alt="image" src="https://github.com/user-attachments/assets/77b610c4-ed18-4de4-9f2f-bd71aa46f6ee" />
-](https://youtu.be/LrsTBWf6Wsc?t=1057)
-https://youtu.be/LrsTBWf6Wsc?t=1057
+[https://youtu.be/LrsTBWf6Wsc?t=449](https://youtu.be/LrsTBWf6Wsc?t=449)
+
+[<img width="697" height="317" alt="image" src="https://github.com/user-attachments/assets/77b610c4-ed18-4de4-9f2f-bd71aa46f6ee" />](https://youtu.be/LrsTBWf6Wsc?t=1057)
+[https://youtu.be/LrsTBWf6Wsc?t=1057](https://youtu.be/LrsTBWf6Wsc?t=1057)
+
 
 
 
