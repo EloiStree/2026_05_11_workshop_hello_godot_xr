@@ -392,7 +392,6 @@ Sinon, en soi, rien ne change.
 Notez que la rotation n’est pas prise en compte dans le character controller.   
 
 
-	`
 ## À vous de faire ;)
 
 Vous savez maintenant comment écouter le clavier, et vous avez le code de mouvement et de rotation.  
