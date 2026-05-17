@@ -203,6 +203,8 @@ Je suis un objet dans la scène Godot.
 
 `var joystick_left: Vector2`  
 Je suis une zone mémoire nommée joystick_left, pas visible par le designer.  
+Ca manque de `_` `var _joystick_left: Vector2` pour dire que la variable est privée.   
+`_` Je ne devrai pas etre modifiable par les autres developpeurs et etre cacher du designer.   
 
 `var joystick_left: Vector2 = Vector2.ZERO`  
 J'ai la valeur par défaut de Vector(0,0) quand je suis créé.  
