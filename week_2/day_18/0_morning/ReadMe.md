@@ -11,7 +11,6 @@ Prenons un cube et déplaçons-le :
 **Senior :** Observez le KS4036 et déplacez-le à l’aide de la trigonométrie, avec des vitesses de rotation de -1.0 à 1.0.
 
 
-
 Une voiture a deux ou a quatre roue vendu sur amazons, cest compose de 4 bouttons pour faire des economies.
 Up Left, Up Right, Down Left , Down Right.
 
@@ -140,16 +139,31 @@ func get_value(name:String) -> bool:
 ```
 
 
+--------------------------- 
+
 
 ## Quater et deux roues ?
 
-https://github.com/EloiStree/HelloTwoWheelsCarKS4036
-https://github.com/EloiStree/2025_10_19_gdp_kid_toy_skid_steering/tree/main
+- KS4036 Mini Carr
+  - Info: https://github.com/EloiStree/HelloTwoWheelsCarKS4036
+  - Code: https://github.com/EloiStree/2025_10_19_gdp_kid_toy_skid_steering
+- OVNI: https://github.com/EloiStree/2025_04_15_gdp_kid_toy_ovni_code
+  - Script: [V1](https://github.com/EloiStree/2025_04_15_gdp_kid_toy_ovni_code/blob/950a0a4557273e3f50f1a7e450406db14f785fc4/scripts/core/move/v000/ovni__move_drone_from_two_joysticks.gd) [V2](https://github.com/EloiStree/2025_04_15_gdp_kid_toy_ovni_code/blob/950a0a4557273e3f50f1a7e450406db14f785fc4/scripts/core/move/v001/ovni__move_drone_character_from_two_joysticks.gd)
+- Drone:
+  - [FPV script](https://github.com/EloiStree/2025_04_15_gdp_kid_toy_ovni_code/blob/950a0a4557273e3f50f1a7e450406db14f785fc4/scripts/core/move/fpv_move_basic_character.gd) 
+  - [Tello script](https://github.com/EloiStree/2025_04_15_gdp_kid_toy_ovni_code/blob/950a0a4557273e3f50f1a7e450406db14f785fc4/scripts/core/move/tello_move_lerp_character.gd) 
+
+
 
 ---------------------------
 
 
 
+
+
+
+
+---------------------------------
 
 ## Ecoutons aux Input:
 
