@@ -27,18 +27,19 @@ Et de le pratiquer soit dans la console, soit sur le SSD1306 que je vous ai donn
 
 ---
 
+# Challenge Senior
+
 Pour notre jeu de la semaine prochaine, on n’en a pas besoin, mais on pourrait avoir un quad avec des dessins sur sa texture.
 Regardez la façon dont j’ai codé mon outil de dessin et faites le vôtre pour :
 
 * Dessiner des lignes noires sur une texture
   * Faire un mini-jeu : suivre la ligne
+  * https://www.youtube.com/results?search_query=line+follow++robot
 * Dessiner du vert clair sur du foncé
   * Faire un jeu de tondeuse automatique
+  * https://www.youtube.com/results?search_query=tondeuse+autonome
 
----
-
-### Contexte :
-
+**Contexte:**
 * [VR Painting](https://www.meta.com/fr-fr/experiences/painting-vr/3106117596158066/?srsltid=AfmBOor5IMirOF_ZiSidmxAfX2iWXd0aULK_R-ixAbFeyiSbgNYFGCJv)
 * [Teaching Simulator](https://youtu.be/s3052ARNaeo?t=25)
 
