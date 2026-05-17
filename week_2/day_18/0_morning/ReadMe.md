@@ -6,7 +6,7 @@ Comme la majorité des personnes étaient absentes ce jour-là, nous nous sommes
 L’objectif de cette journée,du 18 , était de découvrir les inputs.
 Aujourd’hui,de base, nous allions setup Godot XR nous concentrer sur les inputs du Quest 3.
 
-Du code est disponible {ici](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/tree/main/week_1/day_12/2_after_noon).
+Du code est disponible [ici](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/blob/main/week_1/day_12/2_after_noon/ReadMe.md).
  
 De fait, aujourd’hui, ceux qui n’ont pas encore appris à configurer Godot pour la XR sont invités à s’y essayer.     
 Pour ceux qui ont déjà mis en place Godot en XR, l’objectif sera plutôt de se concentrer sur les systèmes d’inputs.     
@@ -442,13 +442,13 @@ Pour les exercices qui suivent, vous pouvez utiliser votre code de cette exercic
 
 ---------------------------------
 
-# Plus information
+# Plus d’informations   
 
-## Ecoutons aux Input:
+## Écoutons les inputs :  
 
-Des git code pour ecouter aux inputs:    
-https://github.com/EloiStree/2026_01_03_gdp_input_to_primitive  
-
+Des exemples de code Git pour écouter les inputs :       
+- https://github.com/EloiStree/2026_01_03_gdp_input_to_primitive  
+-https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/blob/main/week_1/day_12/2_after_noon/ReadMe.md
 
 Ecouter a des characters `1234567890-=~!@#$%^&*()_+][;.,'/{:<>?"}...`:   
 ``` gscript
