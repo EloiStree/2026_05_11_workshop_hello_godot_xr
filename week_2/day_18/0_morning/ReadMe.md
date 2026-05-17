@@ -369,7 +369,7 @@ func _physics_process(delta: float) -> void:
 	rotate_y(-joystick_left.x * deg_to_rad(rotation_speed) * delta)
 	var new_velocity: Vector3 = Vector3.ZERO
 	new_velocity.y = joystick_left.y * vertical_speed
-	var direction = (transform.basis.x * joystick_right.x) - (transform.basis.z * joystick_right.y)
+	var direction = (transform.basis.x * joystick_right.x) + (-transform.basis.z * joystick_right.y)
 	if direction.length() > 0.01:
 		direction = direction.normalized()
 		new_velocity.x = direction.x * move_speed
@@ -379,11 +379,33 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 ```
 
+Ici, plutôt que de le bouger nous-mêmes, on va préparer le mouvement avec `velocity` et lui demander de faire les calculs avec `move_and_slide()`     
 
-## A vous faire ;)
+`var direction = (transform.basis.x * joystick_right.x) + (-transform.basis.z * joystick_right.y)`   
+Petite nuance ici : on crée une flèche vers la droite et une vers l’avant, puis on les additionne pour obtenir la direction.   
 
-Vous savez comment ecouter au clavier et vous avec le code de movement et de rotation.
-Essayez d adapter cela pour une voiture qui est pilotable avec deux floats ou 4 buttons.
+`direction = direction.normalized()`    
+Pour s’assurer que celle-ci reste dans un rayon de 1, on simplifie les calculs avec `normalized()`.   
+
+Sinon, en soi, rien ne change.    
+
+Notez que la rotation n’est pas prise en compte dans le character controller.   
+
+
+	`
+## À vous de faire ;)
+
+Vous savez maintenant comment écouter le clavier, et vous avez le code de mouvement et de rotation.  
+Essayez d’adapter cela pour une voiture pilotable avec deux floats ou quatre boutons.   
+
+Bon, comme un cube, c’est tout ce qu’il nous faut, mais c’est plus facile de s’imaginer avec un objet 3D.   
+
+Voici les meshes de la voiture de notre exercice, le KS4036.   
+
+C’est de la 3D et du dépliage de développeur ☕😉   
+Mais fait avec passion et pied à coulisse.   
+
+
 
 
 
@@ -407,12 +429,6 @@ Pour les exercices qui suivent, vous pouvez utiliser votre code de cette exercic
 
 
 ---------------------------
-
-
-
-
-
-
 
 ---------------------------------
 
