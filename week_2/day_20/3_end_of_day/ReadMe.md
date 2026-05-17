@@ -1,10 +1,25 @@
-**Objectif:** Calculons le tilt et le raw
+**Objectif:** Calculons le tilt et le roll
 
 Si vous deviez créer un niveau à bulle en VR, vous devriez calculer son tilt et son raw à partir d’un quaternion.
+Puis le comparer avec un angle de 0-10 degree et faire bouger une bulle 3D.
 
 On va encore utiliser un peu de trigonométrie 😋.
 
+Encore une fois votre seul input ici est un quaternion en entree.
+
+Ce code est le plus utiliser avec le MicroBit pour les enfants car ca permet de facilement faire des detections de gauche, droite et savoir si l objet est horizontal ou vertical.
+
+Ca permettrait par example de faire des jeux pour handicaper qui ne se joue que avec la tete.
+Ou de faire un wobble detector: [wobble head](https://www.youtube.com/shorts/9gbrB8KwES4)
+
+
+
 ------------------
+
+
+<img width="500" height="279" alt="image" src="https://github.com/user-attachments/assets/aa860242-36e8-4c19-b517-ee542dd02b63" />
+
+
 ----------------
 
 
