@@ -210,7 +210,18 @@ func _physics_process(delta: float) -> void:
 ```
 
 
-## Quater et deux roues ?
+## A vous faire ;)
+
+Vous savez comment ecouter au clavier et vous avec le code de movement et de rotation.
+Essayez d adapter cela pour une voiture qui est pilotable avec deux floats ou 4 buttons.
+
+
+
+-----------------
+
+--------------------
+
+Pour les exercices qui suivent, vous pouvez utiliser votre code de cette exercice ou piochez dans les suivants.
 
 - KS4036 Mini Carr
   - Info: https://github.com/EloiStree/HelloTwoWheelsCarKS4036
@@ -232,6 +243,8 @@ func _physics_process(delta: float) -> void:
 
 
 ---------------------------------
+
+# Plus information
 
 ## Ecoutons aux Input:
 
