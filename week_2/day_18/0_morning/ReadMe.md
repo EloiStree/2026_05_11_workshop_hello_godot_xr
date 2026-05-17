@@ -405,6 +405,14 @@ Voici les meshes de la voiture de notre exercice, le KS4036.
 C’est de la 3D et du dépliage de développeur ☕😉   
 Mais fait avec passion et pied à coulisse.   
 
+[<img width="572" height="362" alt="image" src="https://github.com/user-attachments/assets/48ce8ed5-4565-42da-9316-04ae356427a6" />](https://github.com/user-attachments/files/27905192/ks_4036_meshes.zip)   
+Download: 
+- [ks_4036_meshes.zip](https://github.com/user-attachments/files/27905192/ks_4036_meshes.zip)   
+- [micro_bit_shape.zip](https://github.com/user-attachments/files/27905238/micro_bit_shape.zip)
+  
+Parlons de pied à coulisse si vous en voulez un :   
+[caliper_not_prepared.zip](https://github.com/user-attachments/files/27905289/caliper_not_prepared.zip)   
+(Je ne l’ai pas encore nettoyé)   
 
 
 
