@@ -27,16 +27,16 @@ Prenons un cube et déplaçons-le :
 * de l’avant vers l’arrière
 * avec des vitesses de rotation et de déplacement
 
-**Junior :** Tourner, avancer, reculer. C'est deja bien 😋
-**Medior :** Essayez de faire tourner sur le pivot de la roue à gauche et à droite.
-**Senior :** Observez le KS4036 et déplacez-le à l’aide de la trigonométrie, avec des vitesses de rotation de -1.0 à 1.0.
+**Junior :** Tourner, avancer, reculer. C'est deja bien 😋   
+**Medior :** Essayez de faire tourner sur le pivot de la roue à gauche et à droite.    
+**Senior :** Observez le KS4036 avec des vitesses de rotation de -1.0 à 1.0.    
 
 
-Une voiture a deux ou a quatre roue vendu sur amazons, cest compose de 4 bouttons pour faire des economies.
-Up Left, Up Right, Down Left , Down Right.
+Une voiture à deux ou quatre roues vendue sur Amazon est composée de quatre boutons afin de réduire les coûts.
+**Up Left, Up Right, Down Left, Down Right**
 
+Si l’on traduisait cela avec un clavier, cela ressemblerait à ceci :
 
-Si on traduisait cela avec un clavier ca ressemblerai a cela:
 
 ```gdscript
 class_name SkidCarDefaultInput
@@ -99,9 +99,10 @@ func _update_booleans_and_emit(keycode: Key, is_pressed: bool) -> void:
 
 ```
 
-L avantage de ce code c est qu il est portatif.
-Le desavantage c est qu il prend pas en compte les manettes et autres inputs que le clavier.
-On pourrait utilise le Input map action de Godot.
+L’avantage de ce code, c’est qu’il est portable.
+Le désavantage, c’est qu’il ne prend pas en compte les manettes ni les autres types d’inputs que le clavier.
+On pourrait utiliser les *Input Map Actions* de Godot.
+
 
 
 ``` gdscript
@@ -163,13 +164,13 @@ func get_value(name:String) -> bool:
 
 --------------------------- 
 
+## Base du mouvement··
 
-## Base du mouvement
+Inspirons-nous de ce code pour parler un peu de rotation et de translation.··
 
-### Avec Transform3D
+### Avec Transform3D··
 
-
-Code d'un drone basique:
+Code d'un drone basique :··
 ``` gdscript
 extends Node
 
@@ -178,7 +179,7 @@ var joystick_right: Vector2 = Vector2.ZERO
 
 @export var what_node_to_affect: Node3D
 @export var move_speed: float = 5.0
-@export var rotation_speed: float = 2.0
+@export var rotation_speed: float = 90.0
 @export var vertical_speed: float = 3.0
 
 func set_drone_joysticks(joystick_left_up_rotation: Vector2, joystick_right_move: Vector2) -> void:
@@ -196,6 +197,152 @@ func _physics_process(delta: float) -> void:
 	what_node_to_affect.position += what_node_to_affect.basis.x* joystick_right.x * move_speed * delta
 	what_node_to_affect.position -= what_node_to_affect.basis.z* joystick_right.y * move_speed * delta
 ```
+
+`extends Node` :··
+Je suis un objet dans la scène Godot.··
+
+`var joystick_left: Vector2`··
+Je suis une zone mémoire nommée joystick_left, pas visible par le designer.··
+
+`var joystick_left: Vector2 = Vector2.ZERO`··
+J'ai la valeur par défaut de Vector(0,0) quand je suis créé.··
+
+`@export var what_node_to_affect: Node3D`··
+J'ai besoin que le game designer me dise ce que je dois tourner et bouger.··
+
+`@export var move_speed: float = 5.0`··
+J'ai besoin d'une vitesse de déplacement qui peut changer à tout moment mais sera à 5 par défaut.··
+
+`@export var rotation_speed: float = 90.0`··
+D'une vitesse de rotation et je vous laisse deviner que c'est en degrés.··
+Il manque de la documentation ou un nom de variable plus parlant.··
+
+`@export var vertical_speed: float = 3.0`··
+On aura besoin d'une vitesse différente pour monter et descendre.··
+Nous, on verra une voiture donc on n'en aura pas besoin.··
+
+`func set_drone_joysticks(joystick_left_up_rotation: Vector2, joystick_right_move: Vector2) -> void:`··
+Pour bouger le drone, je demande au designer ou développeur de me fournir deux joysticks.··
+
+`joystick_left_up_rotation: Vector2`··
+Celui de gauche en premier avec une valeur x et y.··
+
+`joystick_right_move: Vector2`··
+Celui de droite en second avec une valeur x et y.··
+
+` -> void:`··
+Je n'ai pas besoin de donner un résultat en retour, je ne retourne rien : `void`.··
+
+`joystick_left = joystick_left_up_rotation`··
+Je prends ce que l'on m'a donné et je le stocke dans notre espace mémoire.··
+
+`joystick_right = joystick_right_move`··
+Pareil, on sauvegarde pour plus tard.··
+
+`#print("Test received " + str(joystick_left) + " " + str(joystick_right))`··
+Pour mieux déboguer et m'assurer que mon code fonctionne, je veux pouvoir voir les deux valeurs dans la console.··
+
+`print(...)`··
+Je demande d'afficher dans la console du développeur un texte.··
+
+`str(...)`··
+Comme j'ai besoin d'une string, je demande de la convertir.··
+
+Voir : `_to_string` https://docs.godotengine.org/en/stable/classes/class_object.html··
+
+`" "+ str() +""`··
+C'est ce que l'on appelle de la concaténation : ajouter des bouts de string ensemble.··
+
+On aurait pu utiliser `"".join([ , , ])`··
+Ou les formats `var text = "Joystick: %s | %s" % [joystick_left, joystick_right]`··
+
+`func _physics_process(delta: float) -> void:`··
+À chaque dessin de l'image au moment dédié à la physique du jeu, allons bouger.··
+
+`delta: float`··
+Le game engine nous donne combien de temps a pris la dernière `frame` pour que l'on prédise la suivante.··
+Delta hors game engine, ça veut juste dire la différence entre deux valeurs.··
+
+`if not what_node_to_affect:`··
+Si le game designer a oublié de nous donner un objet à bouger.··
+
+`return`··
+Je me casse et je ne fais rien.··
+Je pourrais aussi lui casser les noix en utilisant push_error("T'as pas oublié un truc ?")··
+
+`what_node_to_affect.rotate_y(-joystick_left.x * deg_to_rad( rotation_speed) * delta)`··
+Ce que l'on veut, c'est tourner notre objet avec l'intensité du joystick.··
+
+`node.rotate_y`··
+On veut faire tourner notre objet sur son axe Y (vertical) avec Euler.··
+
+`rotation_speed`··
+Notre rotation est en degrés mais Rotate Y est en radians.··
+Comment je le sais ? RTFM : https://docs.godotengine.org/en/stable/classes/class_node3d.html··
+
+`deg_to_rad( rotation_speed)`··
+Prenons l'angle de rotation humainement lisible et transformons-le pour les maths en radians.··
+
+`deg_to_rad( rotation_speed) * delta`··
+Par contre ce n'est pas 90 degrés mais 90 x 0.016+- secondes.··
+On le multiplie par la dernière frame reçue.··
+
+`joystick_left.x`··
+Mais il nous faut prendre la volonté du joueur via le joystick.··
+X c'est de gauche à droite et Y de haut en bas (ou de bas en haut).··
+
+`-joystick_left.x`··
+Comme Euler va à gauche niveau rotation mais que notre joystick demande d'aller à droite,··
+on inverse la valeur du joystick et donc notre équation.··
+
+Tadaam, on a demandé de tourner selon la volonté du joueur.··
+
+`what_node_to_affect.translate(Vector3(0, joystick_left.y * vertical_speed * delta, 0) )`··
+Nous allons faire bouger notre drone de haut en bas avec une méthode faite pour nous.··
+
+`joystick_left.y * vertical_speed * delta`··
+Selon la vitesse, le temps qui passe et l'intensité du joystick, donne-nous une valeur de déplacement.··
+
+`Vector3(0, distance, 0)`··
+Créons une direction qui va vers le dessus avec la distance de déplacement.··
+
+`node.translate(Vector3(0, distance , 0))`··
+Déplaçons notre objet sur Y (vertical) par rapport à lui-même.··
+
+`node.position += self.basis.z *distance`··
+On aurait pu l'écrire comme ceci.··
+
+`node.basis.z` donne-nous la direction verticale localement de mon node.··
+
+`node.position +=` Ajoute-moi la valeur qui suit à ma position locale.··
+
+`basis.z * distance` Notons que l'on peut multiplier un `Vector3()` avec un `float`.··
+
+Allons voir du côté horizontal.··
+
+`what_node_to_affect.position += what_node_to_affect.basis.x* joystick_right.x * move_speed * delta`··
+
+Essayez de deviner ce que fait cette phrase vu mes commentaires précédents.··
+
+`what_node_to_affect.position -= what_node_to_affect.basis.z* joystick_right.y * move_speed * delta`··
+
+Ici une petite nuance `-=`... Selon le développeur ou le mathématicien, "z" n'est pas illustré du même côté.··
+
+Les couleurs et directions XYZ des axes sont purement conventionnelles. 😋··
+
+En Godot il y a du code qui respecte le Z de Godot pour aller vers l'avant et d'autres l'inverse.··
+
+Ici j'ai pris l'inverse de Godot car c'est ce que j'utilisais en cours de maths en secondaire.··
+
+Et voilà, vous arrivez à tourner et bouger un objet avec les données du game designer 🍻··
+
+Petit problème...··
+Vous traversez les murs...··
+
+Pour gagner en performance, on ne calcule pas tous les mouvements de la même manière.··
+Si votre objet ne doit pas traverser un autre, cela demande plus de maths.··
+
+On utilise donc un CharacterBody3D ou CharacterBody2D··
 
 ### Avec character Controller
 
