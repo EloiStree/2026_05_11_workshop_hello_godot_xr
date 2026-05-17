@@ -13,6 +13,8 @@ Ca permettrait par example de faire des jeux pour handicaper qui ne se joue que 
 Ou de faire un wobble detector: [wobble head](https://www.youtube.com/shorts/9gbrB8KwES4)
 
 
+Une fois que vous avez réussi cet exercice, générez un signal émettant un Vector2. Traduisez ce Vector2 pour faire bouger votre voiture du lundi.
+
 
 ------------------
 
