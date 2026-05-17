@@ -2,20 +2,20 @@
 
 ## Après-midi : Voiture à deux roues
 
-Prenons mon addon de déplacement sur deux roues et essayons de lier vos inputs Meta à la voiture.
+Vous avez appris briefement a observer les inputs d un clavier, dun game pad et du Quest3.
+Et l'on a creer une voiture ultra simple: tourner,avancer.
 
-Permettez d’utiliser à la fois les inputs Meta et ceux de l’InputMap (clavier/manette).
-
-**Medior :** Continuez à créer votre KS4036 par vous-même.
+Essayez de faire un code qui utilise le X,Y,A,B du Quest et un autre input classique de debug pour faire avancer votre voiture.
 
 
+Si vous aimez les maths essayers de faire un code de voiture qui permet de bouger avec les axes verticaux des joysticks gauche et droite.
+Voir cette video sur: Differencial drive robot
 [<img width="813" height="384" alt="image" src="https://github.com/user-attachments/assets/c5999938-cf33-40d5-9885-3b0a63a80746" />
-](https://youtu.be/YxuJFQZh94Q?t=75)
-https://youtu.be/YxuJFQZh94Q?t=75
-
-https://www.youtube.com/watch?v=fx6bxPJ6BEs
-
-https://youtu.be/LrsTBWf6Wsc?t=2
+](https://youtu.be/YxuJFQZh94Q?t=75)  
+https://youtu.be/YxuJFQZh94Q?t=75  
+D'autre video sur le sujet:
+- https://www.youtube.com/watch?v=fx6bxPJ6BEs
+- https://youtu.be/LrsTBWf6Wsc?t=2
 
 [<img width="543" height="295" alt="image" src="https://github.com/user-attachments/assets/e6bdf9b5-3426-49d6-9011-6c2d5f816456" />](https://youtu.be/LrsTBWf6Wsc?t=449)
 https://youtu.be/LrsTBWf6Wsc?t=449   
