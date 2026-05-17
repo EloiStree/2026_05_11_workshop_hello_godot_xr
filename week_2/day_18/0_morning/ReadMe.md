@@ -414,6 +414,10 @@ Parlons de pied à coulisse si vous en voulez un :
 [caliper_not_prepared.zip](https://github.com/user-attachments/files/27905289/caliper_not_prepared.zip)   
 (Je ne l’ai pas encore nettoyé)   
 
+_Je vous avais préparé de nombreux assets 3D ici pour apprendre à coder :_   
+_[https://github.com/EloiStree/2026_04_11_gdp_learn_with_sensors](https://github.com/EloiStree/2026_04_11_gdp_learn_with_sensors)_   
+_Avant de me rappeler que nous n’avons que 14 jours éparpillés (3 + 4 + 5 + 2)._   
+
 
 
 
