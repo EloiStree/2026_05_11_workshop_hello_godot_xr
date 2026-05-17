@@ -1,14 +1,12 @@
 
 ## Fin de journée : Débogueur SSD1306
 
-<img width="713" height="490" alt="image" src="https://github.com/user-attachments/assets/de01e628-38e6-4134-935d-aeafd95a9e21" />   
-Nous avons appris à utiliser le SSD1306, car cela nous permettra de déboguer en XR.
+<img width="713" height="490" alt="image" src="https://github.com/user-attachments/assets/de01e628-38e6-4134-935d-aeafd95a9e21" />     
+Nous avons appris à utiliser le SSD1306, car cela nous permettra de déboguer en XR.  
 
 Créez un code permettant d’afficher :
-
-* **les inputs des manettes du Quest**
-* Optionnel :
-
+* les inputs des manettes du Quest
+* Optionnel par la suite:
   * les inputs du clavier via `_input`
   * les inputs du gamepad via `_input`
   * la position et le delta de la souris
@@ -18,17 +16,15 @@ Créez un code permettant d’afficher :
     * un [badge NFC](https://www.amazon.com.be/s?k=badge+nfc)
   * Cela permettra de charger des scènes via un identifiant unique.
 
-Par facilité, vous pouvez aussi ne pas utiliser le SSD1306 et utiliser simplement un `Label3D`.
-
-(Nico peut utiliser le `CanvasLayer` avec les UI de Godot s’il veut 😉)
+Par facilité, vous pouvez aussi ne pas utiliser le SSD1306 et utiliser simplement un `Label3D`.    
+(Nico peut utiliser le `CanvasLayer` avec les UI de Godot en XR s’il veut 😉)     
 
 Le but ici est de vous laisser le temps de vous familiariser avec le système d'Action Set et `_input` de votre choix.
 
 ---
 
 Pour lire les inputs du Quest 3, il vous faudra vous référer aux `XRController3D` `left_hand` et `right_hand`.
-
-Si vous ne faites pas un mod, vous pouvez simplement faire :
+Si vous ne faites pas un mod, vous pouvez simplement faire :   
 
 ```gdscript
 @export var left: XRController3D
