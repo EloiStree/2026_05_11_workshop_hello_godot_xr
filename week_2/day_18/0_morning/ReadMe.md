@@ -20,6 +20,9 @@ les inputs, la configuration (setup), ou tout autre point que vous souhaitez app
 
 ## Matin : Passons de la 2D à la 3D
 
+
+
+
 Prenons un cube et déplaçons-le :
 
 * de gauche à droite
@@ -31,8 +34,34 @@ Prenons un cube et déplaçons-le :
 **Senior :** Observez le KS4036 avec des vitesses de rotation de -1.0 à 1.0.    
 
 
+-------------------------------
+
+Voici les meshes de la voiture de notre exercice, le KS4036.   
+
+C’est de la 3D et du dépliage de développeur ☕😉   
+Mais fait avec passion et pied à coulisse.   
+
+[<img width="572" height="362" alt="image" src="https://github.com/user-attachments/assets/48ce8ed5-4565-42da-9316-04ae356427a6" />](https://github.com/user-attachments/files/27905192/ks_4036_meshes.zip)   
+Download: 
+- [ks_4036_meshes.zip](https://github.com/user-attachments/files/27905192/ks_4036_meshes.zip)   
+- [micro_bit_shape.zip](https://github.com/user-attachments/files/27905238/micro_bit_shape.zip)
+  
+Parlons de pied à coulisse si vous en voulez un :   
+[caliper_not_prepared.zip](https://github.com/user-attachments/files/27905289/caliper_not_prepared.zip)   
+(Je ne l’ai pas encore nettoyé)   
+
+_Je vous avais préparé de nombreux assets 3D ici pour apprendre à coder :_   
+_[https://github.com/EloiStree/2026_04_11_gdp_learn_with_sensors](https://github.com/EloiStree/2026_04_11_gdp_learn_with_sensors)_   
+_Avant de me rappeler que nous n’avons que 14 jours éparpillés (3 + 4 + 5 + 2)._   
+
+
+
+
+--------------
+
 Une voiture à deux ou quatre roues vendue sur Amazon est composée de quatre boutons afin de réduire les coûts.
 **Up Left, Up Right, Down Left, Down Right**
+
 
 Si l’on traduisait cela avec un clavier, cela ressemblerait à ceci :
 
@@ -395,27 +424,6 @@ Notez que la rotation n’est pas prise en compte dans le character controller.
 
 Vous savez maintenant comment écouter le clavier, et vous avez le code de mouvement et de rotation.  
 Essayez d’adapter cela pour une voiture pilotable avec deux floats ou quatre boutons.   
-
-Bon, comme un cube, c’est tout ce qu’il nous faut, mais c’est plus facile de s’imaginer avec un objet 3D.   
-
-Voici les meshes de la voiture de notre exercice, le KS4036.   
-
-C’est de la 3D et du dépliage de développeur ☕😉   
-Mais fait avec passion et pied à coulisse.   
-
-[<img width="572" height="362" alt="image" src="https://github.com/user-attachments/assets/48ce8ed5-4565-42da-9316-04ae356427a6" />](https://github.com/user-attachments/files/27905192/ks_4036_meshes.zip)   
-Download: 
-- [ks_4036_meshes.zip](https://github.com/user-attachments/files/27905192/ks_4036_meshes.zip)   
-- [micro_bit_shape.zip](https://github.com/user-attachments/files/27905238/micro_bit_shape.zip)
-  
-Parlons de pied à coulisse si vous en voulez un :   
-[caliper_not_prepared.zip](https://github.com/user-attachments/files/27905289/caliper_not_prepared.zip)   
-(Je ne l’ai pas encore nettoyé)   
-
-_Je vous avais préparé de nombreux assets 3D ici pour apprendre à coder :_   
-_[https://github.com/EloiStree/2026_04_11_gdp_learn_with_sensors](https://github.com/EloiStree/2026_04_11_gdp_learn_with_sensors)_   
-_Avant de me rappeler que nous n’avons que 14 jours éparpillés (3 + 4 + 5 + 2)._   
-
 
 
 
