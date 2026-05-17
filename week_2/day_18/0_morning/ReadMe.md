@@ -224,7 +224,8 @@ On aura besoin d'une vitesse différente pour monter et descendre.
 Nous, on verra une voiture donc on n'en aura pas besoin.  
 
 `func set_drone_joysticks(joystick_left_up_rotation: Vector2, joystick_right_move: Vector2) -> void:`  
-Pour bouger le drone, je demande au designer ou développeur de me fournir deux joysticks.  
+Pour bouger le drone, je demande au designer ou développeur de me fournir deux joysticks.      
+⚠️ Noter que je n’utilise pas d’input dans ce script pour laisser le choix aux autres membres de l’équipe.     
 
 `joystick_left_up_rotation: Vector2`  
 Celui de gauche en premier avec une valeur x et y.  
