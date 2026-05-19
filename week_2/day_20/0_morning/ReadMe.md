@@ -28,3 +28,44 @@ Trouver des Gimbals :
 
 * [https://www.thingiverse.com/search?q=gimbal+sg90&page=1](https://www.thingiverse.com/search?q=gimbal+sg90&page=1)
 * [https://sketchfab.com/search?features=downloadable&q=gimbal&type=models](https://sketchfab.com/search?features=downloadable&q=gimbal&type=models)
+
+
+-------------
+
+# C'est toujours plus simple en Zero
+
+<img width="834" height="537" alt="image" src="https://github.com/user-attachments/assets/8f0102c9-2995-4ded-ad78-ea442f76127d" />
+_"C'est toujours plus simple les maths au centre du plan"_
+
+
+Ramenons le point en sur le zero vers l'avant de Godot.
+``` gdscript
+@tool
+extends Node3D
+
+
+@export var le_point_observer:Node3D
+@export var le_plan:Node3D
+
+@export var localized_point_observer:Vector3
+@export var le_point_observer_relocalised:Node3D
+
+func _ready():
+    refresh()
+
+
+func _process(_delta:float):
+    refresh()
+
+
+func refresh():
+    var v3_le_point_observer:Vector3= le_point_observer.global_transform.origin
+    var v3_le_plan:Vector3 = le_plan.global_transform.origin
+    var q_le_plan:Quaternion = Quaternion.from_euler(le_plan.global_rotation)
+
+    var v3_le_point_observer_at_zero:Vector3 = v3_le_point_observer - v3_le_plan
+    var q_inverse_le_plan:Quaternion = q_le_plan.inverse()
+    var v3_le_point_observer_at_zero_and_rotated:Vector3 = q_inverse_le_plan * v3_le_point_observer_at_zero
+    localized_point_observer = v3_le_point_observer_at_zero_and_rotated
+    le_point_observer_relocalised.global_transform.origin = localized_point_observer
+```
