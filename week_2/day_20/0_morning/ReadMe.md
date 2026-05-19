@@ -79,3 +79,13 @@ func refresh():
     localized_point_observer = v3_le_point_observer_at_zero_and_rotated
     le_point_observer_relocalised.global_transform.origin = localized_point_observer
 ```
+
+
+Beaucoup de math:    
+- https://github.com/EloiStree/2025_04_11_workshop_charleroi_quest_xr/blob/main/ToDoToday.md
+
+
+
+[<img width="1920" height="1017" alt="image" src="https://github.com/user-attachments/assets/02f966f4-6cf4-49fd-862e-6d5bcdd60dc7" />
+](https://godotengine.org/asset-library/asset/1766)   
+https://godotengine.org/asset-library/asset/1766   
