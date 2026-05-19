@@ -34,8 +34,9 @@ Trouver des Gimbals :
 
 # C'est toujours plus simple en Zero
 
-<img width="834" height="537" alt="image" src="https://github.com/user-attachments/assets/8f0102c9-2995-4ded-ad78-ea442f76127d" />
-_"C'est toujours plus simple les maths au centre du plan"_
+<img width="834" height="537" alt="image" src="https://github.com/user-attachments/assets/8f0102c9-2995-4ded-ad78-ea442f76127d" />    
+
+_"C'est toujours plus simple les maths au centre du plan"_   
 
 
 Ramenons le point en sur le zero vers l'avant de Godot.
