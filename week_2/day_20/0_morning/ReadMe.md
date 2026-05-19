@@ -83,6 +83,7 @@ func refresh():
 
 Beaucoup de math:    
 - https://github.com/EloiStree/2025_04_11_workshop_charleroi_quest_xr/blob/main/ToDoToday.md
+- https://github.com/EloiStree/2024_10_19_upm_relocation_rotation
 
 
 
