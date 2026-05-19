@@ -34,9 +34,18 @@ Trouver des Gimbals :
 
 # C'est toujours plus simple en Zero
 
+
 <img width="834" height="537" alt="image" src="https://github.com/user-attachments/assets/8f0102c9-2995-4ded-ad78-ea442f76127d" />    
 
 _"C'est toujours plus simple les maths au centre du plan"_   
+
+
+Je vous ai fait un petit boite a outil pour avoir plus simple:
+[<img width="1297" height="735" alt="image" src="https://github.com/user-attachments/assets/892c34f1-57ae-4f5a-9f9a-7e57be0d6775" />
+](https://github.com/EloiStree/2026_05_19_gdp_gizmo_debug
+)   
+https://github.com/EloiStree/2026_05_19_gdp_gizmo_debug   
+
 
 
 Ramenons le point en sur le zero vers l'avant de Godot.
