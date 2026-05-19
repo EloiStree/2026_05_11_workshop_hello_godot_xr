@@ -1,55 +1,118 @@
-Profitons de la vivaciter du matin pour refaire un peu de code de rotation d hier.
-Puis on continuera sur Godot XR.
+## Exercice : Rotation, Servo moteur et préparation XR avec Godot
 
-Vous touverez dans ce  zip un servo moteur, la voiture d'hier et un telecommande IR pour l exerice suivant.
-[car_servor_ir.zip](https://github.com/user-attachments/files/27984166/car_servor_ir.zip)
+Profitons de l’énergie du matin pour revoir le code de rotation travaillé hier, puis nous continuerons avec Godot XR. Oui, encore des rotations. L’humanité a décidé que presque tout devait tourner un jour ou l’autre.
 
+Vous trouverez dans ce fichier ZIP :
 
-### La carcase
+* un servo moteur,
+* la voiture utilisée hier,
+* une télécommande IR pour l’exercice suivant.
 
-Prenez le model 3D du KS4036 et placer la dans votre cube d hier.
-Garder le cube pour si vous oubliez les dimensions, juste cacher le.
+[Télécharger car_servor_ir.zip](https://github.com/user-attachments/files/27984166/car_servor_ir.zip?utm_source=chatgpt.com)
 
-Ajouter y deux mini-moteur.
+---
 
-Dans les mini moteur"
-- ajouter un point vide d'ancrage
-- ajouter dans l ancrage un point vide de pivot
-- ajouter ans le pivot le model 3D de la roue
+# Partie 1 : La carrosserie
 
-### Faire tourner une roue.
+## Préparation du véhicule
 
-Si vous vous souvenez pour tourner sur le Y vertical hier avec notre voiture on a utiliser `rotate_y` et `deg_to_rad` 🤔
+1. Prenez le modèle 3D du **KS4036** et placez-le dans le cube créé hier.
+2. Conservez le cube comme référence de dimensions, mais masquez-le dans la scène.
+3. Ajoutez deux mini-moteurs au véhicule.
 
-Ici on doit proposer au game designer:
-- une vitesse maximal de rotation
-- une vitesse actuel de la  roue
+## Structure des mini-moteurs
 
-Pour le developpeur deux methodes:
-- set_speed_with_percentage
-- set_speed_with_degree
+Pour chaque mini-moteur :
 
-L angle de la roue ne peut jamais depasser 720 degree. 
-Prenez cette logique en compote pour eviter un depassement du float sur une longue session.
+* ajoutez un objet vide servant d’**ancrage** (`Anchor`) ;
+* ajoutez dans cet ancrage un objet vide servant de **pivot** (`Pivot`) ;
+* ajoutez ensuite le modèle 3D de la roue dans le pivot.
 
+La hiérarchie doit permettre une rotation propre de la roue.
 
-### Servo Moteur
+---
 
-Continuons sur le rotation
+# Partie 2 : Faire tourner une roue
 
-On aimerai utiliser des servos moteur SG90.
-Ceux-ci vont de 0 a 180 degree
+Hier, pour faire tourner la voiture sur l’axe vertical (`Y`), nous avons utilisé :
+* `rotate_y`
+* `deg_to_rad`
 
-Prenez le model 3D creer un anchor et un pivot.
+Cette fois, nous allons appliquer une logique similaire aux roues.
 
-Creer un script qui recoit 
-= set_with_angle_0_180(angle)
-- set_with_percent(percent)
+## Objectifs
 
+Le système doit permettre au game designer de définir :
+* une **vitesse maximale de rotation** ;
+* une **vitesse actuelle** de la roue.
 
+## Méthodes à créer
 
+Le développeur doit fournir deux méthodes :
+* `set_speed_with_percentage(percent)`
+* `set_speed_with_degree(speed_degree)`
 
+## Contraintes
 
+L’angle de rotation de la roue ne doit jamais dépasser `720°`.
 
+Mettez en place une logique permettant de limiter ou réinitialiser proprement l’angle afin d’éviter les problèmes liés à l’accumulation des valeurs flottantes pendant de longues sessions d’exécution.
 
+---
 
+# Partie 3 : Servo moteur SG90
+
+Nous allons maintenant travailler avec un servo moteur **SG90**.
+
+## Contraintes du servo
+
+Le servo peut tourner uniquement entre :
+* `0°`
+* `180°`
+
+## Structure demandée
+
+1. Importez le modèle 3D.
+2. Créez :
+   * un `Anchor`
+   * un `Pivot`
+
+## Script à réaliser
+
+Le script doit proposer les méthodes suivantes :
+
+* `set_with_angle_0_180(angle)`
+* `set_with_percent(percent)`
+
+Le système doit garantir que les rotations restent toujours dans les limites autorisées du servo.
+
+---
+
+# Partie 4 : Télécommande IR et préparation XR
+
+Pour préparer le prochain exercice Godot XR :
+
+1. Importez la télécommande IR.
+2. Essayez de :
+   * l’attraper correctement ;
+   * la positionner naturellement dans la main du joueur en VR.
+
+Parce qu’un objet flottant à moitié dans les doigts reste une tradition du développement XR, mais on peut essayer de faire mieux.
+
+---
+
+# Objectifs avancés
+
+## Niveau Medior
+
+Lorsque la télécommande est tenue en main :
+
+* les boutons de la manette doivent envoyer des entiers via un singleton statique.
+
+## Niveau Senior
+
+Les entiers ne doivent être transmis :
+
+* qu’aux objets :
+  * visibles devant le joueur ;
+  * situés dans un certain rayon d’action.
