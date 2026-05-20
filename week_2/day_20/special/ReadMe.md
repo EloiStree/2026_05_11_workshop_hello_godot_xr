@@ -1,7 +1,23 @@
-Des maths ;)
+# Des maths ;)
+
+Des essentiel
+- [ ] Vnew = Qrotation * Vcurrent
+- [ ] Relocalisation Cartesian
+- [ ] Cross Product
+  - [ ] Dot Product
+- [ ] Direction X Y Z
+    - [ ] Magnitude
+    - [ ] Normalisation
+- [ ] Commutativiter des quaternions
+- [ ] Quaternion
+  - [ ] From Euler
+  - [ ] To Euler
+  - [ ] Look At
+  - [ ] From To
 
 
-# En Unity
+
+## En Unity
 Voir https://github.com/EloiStree/2025_04_11_workshop_charleroi_quest_xr/blob/208251eea55075e46cf21667a1d156a7c9920e6a/ToDoToday.md
 - Vector3.up et Vector3.Cross en image [https://youtu.be/jXE9EZmj6RQ?t=57](https://youtu.be/jXE9EZmj6RQ?t=57)
 - Plan cartésien X Y Z Unity [https://youtu.be/jXE9EZmj6RQ?t=79](https://youtu.be/jXE9EZmj6RQ?t=79)
@@ -76,7 +92,7 @@ Voir https://github.com/EloiStree/2025_04_11_workshop_charleroi_quest_xr/blob/20
 
 
 
-# En Godot (WIP)
+## En Godot (WIP)
 
 Essayons de trouver un alternative en Godot
 
