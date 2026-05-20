@@ -30,3 +30,19 @@ https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/tree/main/week_1
 <img width="720"  alt="image" src="https://github.com/user-attachments/assets/b7782fa3-a388-4eb7-8c17-489bbd1a7f4b" />
 <img width="720"  alt="image" src="https://github.com/user-attachments/assets/930a27cb-ddcc-47d0-98c8-5e3ccd21f07c" />
 <img width="720" alt="image" src="https://github.com/user-attachments/assets/1abfd2c5-1f70-404d-b292-2b105bc6a62d" />
+
+
+-----------
+
+# Que bouger
+
+Une SUV
+- https://github.com/EloiStree/2026_04_03_gdp_kid_toy_two_wheel_code
+
+Un drone:
+- https://github.com/EloiStree/2025_04_15_gdp_kid_toy_ovni_code
+
+
+Draw
+- https://github.com/EloiStree/2024_08_05_gdp_uv_drawable_drones
+- https://github.com/EloiStree/2024_09_15_gdp_uv_drawable_controller

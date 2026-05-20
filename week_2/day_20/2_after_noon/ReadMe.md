@@ -1,16 +1,37 @@
-**Objectif**: Wheel Raw
+**Objectif** : Wheel Roll
+
+Essayons de créer un code qui détecte l’angle brut de notre volant, sans tenir compte de son orientation par rapport à un autre objet.
+
+On utilise uniquement un quaternion en entrée.
+
+Le but de l’exercice ici n’est pas de vous faire réussir cet exercice,
+mais que vous preniez un papier et un bic et que vous réfléchissiez en termes de volume et d’espace.
+
+Faites des hypothèses sur la façon dont vous vous y prendriez,
+et une fois plus ou moins clair dans votre tête, essayez de coder comme vous pouvez.
+
+Le but n’est pas d’y arriver, mais d’essayer d’y arriver.
+
+The compass m’a pris 20 minutes, l’exercice suivant 40 minutes.
+Celui-ci, je n’ai pas trouvé du premier coup et il m’a fallu une bonne après-midi.
+Note que si j’avais bien mangé le matin et que j’étais dans un bon jour, ça aurait pu me prendre 20 minutes.
+
+Petit astuce : allez dans [Open Brush](https://github.com/EloiStree/HelloPaintingJam/issues/9) (hors ligne).
+[https://github.com/EloiStree/HelloPaintingJam/issues/9](https://github.com/EloiStree/HelloPaintingJam/issues/9)
+Dessinez sur une feuille de papier, c’est important, mais il y a des choses qui en 3D se voient plus vite.
 
 
-Essayons de créer un code qui détecte l’angle brut de notre volant, sans tenir compte de son orientation par rapport à un autre objet.   
-On utilise uniquement un quaternion en entrée.   
+Si vous n’arrivez pas à faire cet exercice 😉, pas de panique.   
+Revenez dessus après la formation.    
 
-En bref, la méthode consiste à générer un deuxième point sur la droite, puis à comparer les hauteurs afin d’appliquer de la trigonométrie sur l’inclinaison.   
-  
-À vous d’essayer.    
-  
+Le suivant est plus « facile ».     
 
 
 ------------------
+
+<img width="500" height="279" alt="image" src="https://github.com/user-attachments/assets/aa860242-36e8-4c19-b517-ee542dd02b63" />
+
+
 ------------------
 
 **Solution:**
@@ -93,3 +114,7 @@ static func compute_wheel_rotation_in_degrees_from_frontal_double_point(front_ce
 # 	return Vector3(rotated_x, point.y, rotated_z)
 
 ```
+
+
+En bref, la méthode consiste à générer un deuxième point sur la droite, puis à comparer les hauteurs afin d’appliquer de la trigonométrie sur l’inclinaison.   
+  

@@ -6,109 +6,53 @@ Une approche que j’aime bien consiste à ne pas dépendre uniquement des group
 
 
 
-**Area3D**
+**Area3D**   
 L’Area3D filtre les collisions et envoie une liste d’objets à un script.
 Ce script applique ensuite un second filtre : il conserve uniquement les objets possédant un tag, que ce soit sur le node lui-même, ses enfants ou son parent.
 
 
-**Approche “Static Singleton”**
-
+**Approche “Static Singleton”**  
 Le tag est enregistré dans une liste statique globale de l’application, ou dans une resource singleton partagée.
 
 Ensuite, le script de détection vérifie simplement si l’objet est compatible avec le tag recherché.
-Exemple: lumières dans une scène pour capteurs de résistance 
-
-**Cas UI / 2D**
-
-Au `ready` ou lors d’un refresh, on parcourt les enfants d’un node à la recherche de ceux contenant les scripts ciblés.
-
-On construit ensuite une liste active, utilisée pour s’abonner aux tags ou déclencher des interactions.
-
-**Idée générale**
-
-Ce principe se rapproche d’un ECS simplifié à la Unity.
-On tag les nodes avec des mots-clés, on effectue des recherches sur ces tags, puis on applique une logique dessus.
-
-Version très simplifiée, évidemment… 
+Exemple: trouver les lumières dans une scène pour des capteurs de résistance a la lumière.   
 
 
 
-Example: Un tag pour être découvert.
-``` gdscript
+
+**Exemple : Un tag pour être découvert**
+
+Le principe ici est de faire un script de tag à trouver lorsque l’on recherche dans les enfants d’un nœud.
+
+Une fois trouvé, on peut lui transmettre une couleur.
+Le script, via un signal, ajoute une couche d’abstraction et délègue la gestion de cette couleur à d’autres systèmes.
+
+```gdscript
 class_name CrocoColorSetterTagRgb
 extends Node
 
-signal on_color_at_ready(color:Color)
-signal on_color_updated(color:Color)
+signal on_color_at_ready(color: Color)
+signal on_color_updated(color: Color)
 
 @export var color_resource: CrocoColorResourceRgb
 
 func _ready():
-	#await get_tree().create_timer(0.01).timeout
-	if color_resource :
+	# await get_tree().create_timer(0.01).timeout
+	if color_resource:
 		on_color_at_ready.emit(color_resource.color)
 
-func set_color(color:Color):
-	color_resource.color= color
+func set_color(color: Color):
+	color_resource.color = color
 	on_color_updated.emit(color)
 ```
 
+Maintenant, il nous faut retrouver ces nœuds contenant ce script.
 
-Utiliser un singleton static
+Ce script ne sait pas quoi faire de la couleur : il la transmet simplement via des signaux à d’autres scripts, qui eux seront chargés de l’appliquer ou de la traiter sur le nœud concerné.
 
 ``` gdscript
-class_name  CrocoColorClipFacade3D
-extends Node3D
 
-@export var is_open_state:bool
-
-@export var tip_point:Node3D
-@export var cable_point:Node3D
-@export var clip_interaction_shape:CollisionShape3D
-@export var clip_color:CrocoColorInSceneRGB
-
-signal  on_open_state_updated(is_closed:bool)
-
-
-func set_open_state(is_closed:bool):
-	is_open_state = is_closed
-	on_open_state_updated.emit(is_open_state)
-
-func get_open_state()->bool:
-	return is_open_state
-
-func get_tip_point()->Node3D:
-		return tip_point
-
-func get_tip_point_global_position()->Vector3:
-		return tip_point.global_position
-
-func get_cable_point()->Node3D:
-		return cable_point
-
-func get_cable_point_global_position()->Vector3:
-		return cable_point.global_position
-		
-
-static var in_scene:Array[CrocoColorClipFacade3D]		
-
-func _ready() -> void:
-	print ("CrocoColorClipFacade3D _ready called", in_scene.size())
-	if not in_scene.has(self):
-		in_scene.append(self)
-	
-	
-func _exit_tree() -> void:
-	print("CrocoColorClipFacade3D _exit_tree called", in_scene.size())
-	if in_scene.has(self):
-		in_scene.erase(self)
-
-```
-
-Détecter une Area3D et un tag de script.
-``` gdscript
-
-class_name CrocoColorCollidableArea3D
+class_name NodeListFromCollidableArea3D
 extends Area3D
 
 @export var is_active:bool=false
@@ -220,5 +164,6 @@ func _on_area_exited(area: Area3D) -> void:
 		on_node_exiting_valide.emit(area)
 		#print("Leaving soo sooon ?", in_zone_nodes.size())
 ```
+
 
 

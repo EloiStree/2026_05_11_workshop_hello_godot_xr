@@ -1,6 +1,10 @@
 <img width="615" height="146" alt="image" src="https://github.com/user-attachments/assets/5f9b06e4-2c20-48a9-adbe-3e88874052ac" />
 
 
+[<img width="1203" height="519" alt="image" src="https://github.com/user-attachments/assets/97ab78d4-e2e6-4472-b29a-1dc14e859e57" />](https://youtu.be/UUwpEY_S9os?t=353)  
+https://youtu.be/UUwpEY_S9os?t=353   
+
+
 # Matin : Snapper un objet
 
 On a vu comment attraper un objet, mais j’ai sauté l’étape qui consiste à le coller à un autre.

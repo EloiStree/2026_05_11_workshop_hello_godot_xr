@@ -1,15 +1,34 @@
-**Objectif:** utiliser un Area3D pour détecter un contact
-
-Godot Engine Area3D est un outil simple mais puissant pour gérer des interactions en 3D, notamment les collisions et détections d’objets.
-
-Il peut rapidement servir à construire des “boîtes à outils” en XR, ou encore des capteurs pour des systèmes comme une voiture simulée.
-
-L’objectif ici est de se familiariser avec Area3D dans Godot, puis d’explorer les layers et groupes disponibles afin de filtrer précisément les objets détectés par notre zone de détection.
 
 
---------------
+**Objectif : utiliser un Area3D pour détecter un contact**
 
-------------
+Godot Engine propose avec **Area3D** un outil simple mais puissant pour gérer les interactions en 3D, notamment la détection de collisions et d’objets dans une zone.
+
+Ce système peut être utilisé pour construire rapidement des “boîtes à outils” en XR.
+On réutilisera ce code à plusieurs endroits pour notre jeu de la semaine prochaine.
+
+L’objectif de cet exercice est de se familiariser avec Area3D dans Godot, puis d’explorer les **layers** et **groups** afin de filtrer précisément les objets détectés par la zone.
+
+---
+
+### Mise en scène
+
+Attachez un **Nerf Gun** à votre main gauche et un **sabre laser** (un cylindre en *unlit*) à votre main droite.
+
+---
+
+### Exercice 1: Des cibles
+
+Ajoutez des cubes proches du joueur et des cylindres plus éloignés pour représenter des cibles.
+
+Lorsque les cibles sont touchées, elles doivent disparaître.
+
+
+------------------
+
+<img width="500" height="279" alt="image" src="https://github.com/user-attachments/assets/aa860242-36e8-4c19-b517-ee542dd02b63" />
+
+------------------
 
 **Une solution:**   
 ``` gdscript  
@@ -54,8 +73,6 @@ func _set_as_active(value_on:bool):
 		#print('Changed')
 		on_active_state_changed.emit(value_on)
 			
-	
-	
 	
 func _ready():
 	area_entered.connect(_on_area_entered)
@@ -124,7 +141,7 @@ func _on_area_exited(area: Area3D) -> void:
 ```
 
 
-Detect a touch on Area3D
+Note pour le debug: Detecter une touche de souris ou de doight sur le ecran 2D.
 ``` gdscript
 class_name MicroBitTouchableArea3D
 extends Area3D

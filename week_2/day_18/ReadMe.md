@@ -57,3 +57,7 @@ Vous pouvez aussi ajouter un quad fixe avec la texture.
   -  https://github.com/EloiStree/2026_04_03_upm_kid_toy_two_wheel_code
   - https://github.com/EloiStree/2026_04_07_workshop_hello_art_and_git/blob/main/day_1/ReadMe.md
 
+
+Draw Line
+- https://docs.unity3d.com/6000.4/Documentation/ScriptReference/Debug.DrawLine.html
+- https://godotengine.org/asset-library/asset/1766

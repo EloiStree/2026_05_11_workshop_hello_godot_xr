@@ -2,15 +2,22 @@
 
 Exercice en soi assez simple. On veut savoir combien de degrés à gauche ou à droite se trouve l’objet.
 
-En bref :
-On a donc besoin d’un point à viser (`Vector3`).
-De la direction *forward* vue du dessus (plan XZ sans le Y).
-On calcule la direction du point avec : destination - origine.
-On compare les deux directions.
-Soit avec les outils de Godot pour calculer un angle,
-Soit avec la trigonométrie.
 
----
+Ici le but est d apprendre ecraser et recenter un vecteur pour rendre les mathematiques plus simple.
+
+En bref :  
+- On a donc besoin d’un point à viser (`Vector3`).   
+- De la direction *forward* vue du dessus (plan XZ sans le Y).    
+- On calcule la direction du point avec : destination - origine.   
+- On compare les deux directions: forward et direction du point.    
+  - Soit avec les outils de Godot pour calculer un angle,    
+  - Soit avec la trigonométrie.   
+
+-----------
+
+<img width="500" height="279" alt="image" src="https://github.com/user-attachments/assets/aa860242-36e8-4c19-b517-ee542dd02b63" />
+
+-----------
 
 **Une solution à cet exercice :**
 
