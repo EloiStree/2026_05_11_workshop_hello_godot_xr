@@ -4,7 +4,7 @@ Des essentiel
 - [ ] Vnew = Qrotation * Vcurrent
 - [ ] Relocalisation Cartesian
 - [ ] Cross Product
-  - [ ] Dot Product
+  - [ ] [Dot Product](https://youtu.be/LyGKycYT2v0?t=94)
 - [ ] Direction X Y Z
     - [ ] Magnitude
     - [ ] Normalisation
@@ -14,6 +14,20 @@ Des essentiel
   - [ ] To Euler
   - [ ] Look At
   - [ ] From To
+
+
+[<img width="1415" height="719" alt="image" src="https://github.com/user-attachments/assets/3f43079b-4ac5-4b43-8b5c-9b67be93c2ba" />](https://youtu.be/LyGKycYT2v0?t=94)     
+https://youtu.be/LyGKycYT2v0?t=94       
+
+
+[<img width="1411" height="780" alt="image" src="https://github.com/user-attachments/assets/b4f9a04f-c17a-40d9-8504-e2c52112f08b" />
+](https://youtu.be/h0NJK4mEIJU?t=142)   
+https://youtu.be/h0NJK4mEIJU?t=142   
+
+
+[<img width="1435" height="785" alt="image" src="https://github.com/user-attachments/assets/856feb96-2d5c-4311-9cde-264e066410c8" />](https://youtu.be/h0NJK4mEIJU?t=28)   
+https://youtu.be/h0NJK4mEIJU?t=28   
+
 
 
 
