@@ -93,13 +93,13 @@ TODO :
       - `var ma_variable : Dictionary = {"key": "value"}`
   - Variable de type Node :
     - `Node` : nœud de la scène
-      - `var ma_variable : Node = get_node("NodePath")`
+      - `var ma_variable : Node `
     - `Node2D` : nœud 2D
-      - `var ma_variable : Node2D = get_node("NodePath")`
+      - `var ma_variable : Node2D`
     - `Node3D` : nœud 3D
-      - `var ma_variable : Node3D = get_node("NodePath")`
+      - `var ma_variable : Node3D`
     - `Label3D` : nœud de texte 3D
-      - `var ma_variable : Label3D = get_node("NodePath")`
+      - `var ma_variable : Label3D `
 
 
 
