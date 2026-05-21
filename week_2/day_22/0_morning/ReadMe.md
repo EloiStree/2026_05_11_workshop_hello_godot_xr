@@ -14,6 +14,7 @@ L’objectif de cet exercice est de se familiariser avec Area3D dans Godot, puis
 ### Mise en scène
 
 Attachez un **Nerf Gun** à votre main gauche et un **sabre laser** (un cylindre en *unlit*) à votre main droite.
+<img width="607" height="476" alt="image" src="https://github.com/user-attachments/assets/5c54dee0-4c0b-4b07-b3d6-f1228ca657da" />
 
 ---
 
