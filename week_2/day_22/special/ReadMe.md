@@ -30,9 +30,7 @@ Concernant **Area3D**, voici ma compréhension actuelle :
 
 
 
-**Sujet : Les balles (Bullets)** : Elles sont très rapides, avec des téléportations de 1,5 mètre ou plus par frame.
-
-**Petite note sur le sujet :**
+**Les bullets** : Elles sont très rapides, avec des téléportations de 1,5 mètre ou plus par frame.
 
 La plupart des moteurs de jeu ne gèrent pas bien les collisions d’objets très rapides.
 
