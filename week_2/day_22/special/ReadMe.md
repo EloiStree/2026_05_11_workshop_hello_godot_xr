@@ -46,6 +46,7 @@ Deux approches principales :
 
 Vous pouvez trouver un exemple ici :  
 → https://github.com/EloiStree/2026_05_21_gdp_area_for_xr
+→ https://github.com/EloiStree/2026_04_12_gdp_nerf_dart
 
 
 
