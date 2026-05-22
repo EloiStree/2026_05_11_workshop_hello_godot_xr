@@ -114,7 +114,7 @@ Ainsi, il y a une couche d’abstraction sur la manière dont on va récupérer 
 
 
 
-```
+``` gdscript
 class_name AreaXrGroupOfNodes
 extends Node
 
