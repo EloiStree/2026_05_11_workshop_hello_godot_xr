@@ -106,6 +106,73 @@ func _input_event(camera, event, position, normal, shape_idx):
 		
 ```
 
+## Le container
+
+On ne sait pas encore comment on va interagir avec les futurs développeurs, et on n’est pas certain de coder de la bonne manière.   
+Ce que l’on peut faire, c’est stocker cela dans une classe dont le seul but est de contenir des `Array[Node]`.   
+Ainsi, il y a une couche d’abstraction sur la manière dont on va récupérer les `Node` et le code qui les affecte.  
+
+
+
+```
+class_name AreaXrGroupOfNodes
+extends Node
+
+signal on_group_updated(nodes:Array[Node])
+
+@export var _given_nodes:Array[Node]
+
+func set_nodes(nodes:Array[Node]):
+	_given_nodes = nodes
+	notify_group_update()
+
+func notify_group_update():
+	on_group_updated.emit(_given_nodes)
+	
+func get_nodes() -> Array[Node]:
+	var valid_nodes: Array[Node] = []
+	for node in _given_nodes:
+		if node:
+			valid_nodes.append(node)
+	return valid_nodes
+	
+func get_nodes_3d() -> Array[Node3D]:
+	var valid_nodes: Array[Node3D] = []
+	for node in _given_nodes:
+		if node and node is Node3D:
+			valid_nodes.append(node)
+	return valid_nodes
+
+func remove_node(node:Node):
+	if _given_nodes.has(node):
+		_given_nodes.erase(node)
+	notify_group_update()
+
+func add_node(node:Node):
+	if not _given_nodes.has(node):
+		_given_nodes.append(node)
+	notify_group_update()
+
+
+func remove_node_array(nodes:Array[Node]):
+
+	for node in nodes:
+		remove_node(node)
+	notify_group_update()
+
+func add_node_array(nodes:Array[Node]):
+	for node in nodes:
+		add_node(node)
+	notify_group_update()
+
+func clear_nodes():
+	_given_nodes.clear()
+	notify_group_update()
+
+func set_with_single_node(node:Node):
+	_given_nodes.clear()
+	add_node(node)
+```
 
 -------------------------
 
