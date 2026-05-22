@@ -1,5 +1,9 @@
 
 **Objectif de la journée**
+   
+[<img width="994" height="530" alt="image" src="https://github.com/user-attachments/assets/61d7fbff-23ee-402a-b87b-84234cbb4517" />](https://www.creativebloq.com/how-to/use-gravity-sketch)       
+https://www.creativebloq.com/how-to/use-gravity-sketch    
+  
 
 - Créer un cursor
   - Changer la taille du cursor avec le joystick du `XRController3D` (right)
@@ -25,6 +29,7 @@ Concernant **Area3D**, voici ma compréhension actuelle :
 - Dès que les solutions ci-dessus ne conviennent plus, personnalise ta recherche (comme un cuisinier qui improvise).
 
 **Proposition** : Créer un listener de collision personnalisé pour Area3D qui maintient un `Array[Node3D]` des objets actuellement en collision. Tu pourras ensuite appliquer des filtres empilables sur cette liste.
+
 
 -------------------------------------------------
 
