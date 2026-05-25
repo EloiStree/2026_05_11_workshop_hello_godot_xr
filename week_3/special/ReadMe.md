@@ -135,9 +135,8 @@ Info : [Quick](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issu
 
 Composition : [Info](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/220)
 
-**⚠️ Zip et Asset pour le projet:**      
-https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/issues/8      
-(Si vous le desirez, aucune obligation 😋 )   
+**⚠️ Zip et Asset pour le projet:**  [Voir](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/issues/8)        
+(Si vous le desirez, aucune obligation 😋 )     
 
 * Une LED RGB à gauche et une LED RGB à droite
 * Deux roues
