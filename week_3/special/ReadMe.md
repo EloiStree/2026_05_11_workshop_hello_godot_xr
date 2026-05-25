@@ -177,7 +177,9 @@ Trouvez des éléments 3D pour les senseurs :
 -----------------------
 
 
-**Challenge : Dessinez sur le sol une carte :** <img width="720" alt="image" src="https://github.com/user-attachments/assets/4643da8d-038f-4c64-ae28-70dfc6f299e5" />
+**Challenge : Dessinez sur le sol une carte :**   
+<img width="720" alt="image" src="https://github.com/user-attachments/assets/4643da8d-038f-4c64-ae28-70dfc6f299e5" />   
+<img width="1024" height="1024" alt="circuit_line" src="https://github.com/user-attachments/assets/ab1ab76e-9ec9-4bed-ad66-d1a42cbcc91c" />   
 
 Dans un tournoi de robots, il y a généralement un sol avec des lignes.
 Pour cela, il faut deux outils :
