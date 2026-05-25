@@ -1,5 +1,4 @@
 [<img width="720"  alt="image" src="https://github.com/user-attachments/assets/7b5d7830-dab5-49d9-b09a-879a6697de94" />](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr)        
-[<img width="720"  alt="image" src="https://github.com/user-attachments/assets/0965456b-a5a9-4db8-b8ad-bd35532d51c9" />](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr)  
 
 « Ce n’est pas avec neuf femmes qu’on peut faire un enfant en un mois. »  
 - Coder prend du temps
@@ -23,6 +22,8 @@ En gros : le but de la semaine n’est pas forcément d’aller vite ni de produ
 * 3–5 : Game Jam
 
 ### But de la semaine :
+
+[<img width="720"  alt="image" src="https://github.com/user-attachments/assets/0965456b-a5a9-4db8-b8ad-bd35532d51c9" />](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr)  
 
 Préparer une boîte à outils en groupe sur Git simulant un KS4036, sans avoir le jeu de la Jam en tête.
 
