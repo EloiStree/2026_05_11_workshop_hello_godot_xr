@@ -240,7 +240,7 @@ Il vous faut techniquement deux dépôts Git (ou trois) :
 * Un pour le projet Godot XR contenant la boîte à outils.
    
 (Trois projets si vous voulez créer une version non XR et pratiquer les submodules.
-Un seul projet si vous ne voulez pas faire une boîte à outils et que tout le monde code en XR Linq.)   
+Un seul projet si vous ne voulez pas faire une boîte à outils et que tout le monde code en XR Link.)   
    
 
 
