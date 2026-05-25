@@ -192,3 +192,14 @@ Je ne vous aurais pas donné cet exercice si je ne savais pas le faire moi-même
 Voici un exemple de ce que cela peut donner.
 
 
+
+-----------
+
+Hesitez pas ajouter ce plug-in dans votre projet:   
+[<img width="720" alt="image" src="https://github.com/user-attachments/assets/6c3da063-9d06-430f-879a-927eb021f656" />](https://godotengine.org/asset-library/asset/1766)   
+https://godotengine.org/asset-library/asset/1766  
+
+
+
+
+
