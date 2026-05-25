@@ -18,7 +18,9 @@ Le but de la semaine n’est pas forcément d’aller vite ni de produire un max
 L’objectif, c’est surtout de pratiquer le travail en équipe.  
 Le code que vous écrirez cette semaine sera utilisé par d’autres la semaine prochaine 😅🍻   
 
+
 ---
+
 
 ## Planning :
 
@@ -132,6 +134,10 @@ Info : [Quick](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issu
 `~Sujet~` Pas certain de vouloir explorer cela ensemble.
 
 Composition : [Info](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/220)
+
+**⚠️ Zip et Asset pour le projet:**      
+https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr/issues/8      
+(Si vous le desirez, aucune obligation 😋 )   
 
 * Une LED RGB à gauche et une LED RGB à droite
 * Deux roues
