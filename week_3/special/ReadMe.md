@@ -9,25 +9,30 @@ Clean Code: [Video](https://github.com/EloiStree/HelloCleanCode)
 - “Clean code always looks like it was written by someone who cares.”
 - "Always code as if the person who ends up maintaining your code will be a violent psychopath who knows where you live." — John Woods
 
-En gros : le but de la semaine n’est pas forcément d’aller vite ni de produire un maximum. L’objectif, c’est surtout de pratiquer le travail en équipe. Le code que vous écrirez cette semaine sera utilisé par d’autres la semaine prochaine 😅🍻
+"La valeur d’un livre ne se mesure pas au fait de l’avoir lu une fois, mais au fait d’avoir envie de le relire."     
+Lié à ce sujet: Un code propre se reconnaît au code qui a été retiré.   
 
 
+**En gros:**   
+Le but de la semaine n’est pas forcément d’aller vite ni de produire un maximum.   
+L’objectif, c’est surtout de pratiquer le travail en équipe.  
+Le code que vous écrirez cette semaine sera utilisé par d’autres la semaine prochaine 😅🍻   
 
 ---
 
 ## Planning :
 
-* 26–29 : Préparer le KS4036
-* 1–2 : Revoir les Nodes et l’UI
-* 3–5 : Game Jam
+* 26–29 mai: Préparer le KS4036
+* 1–2 juin: Revoir les Nodes et l’UI
+* 3–5 juin: Game Jam
 
 ### But de la semaine :
 
 [<img width="720"  alt="image" src="https://github.com/user-attachments/assets/0965456b-a5a9-4db8-b8ad-bd35532d51c9" />](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr)  
 
 Préparer une boîte à outils en groupe sur Git simulant un KS4036, sans avoir le jeu de la Jam en tête.
-
 Le but est de l’utiliser durant la JAM.
+Et qu'il soit utilisable sur [Godot Lib](https://godotengine.org/asset-library/asset).
 
 Essayer de rester le plus « propre » possible, dans la mesure du possible.
 
@@ -59,6 +64,12 @@ Essayez de trouver des exercices plus complexes qui font avancer le projet pour 
 * S’assurer que votre boîte à outils sera utilisable le 3 juin
 * Bonus : Faire bouger la voiture avec la rotation de la main
 * Savoir charger/changer du code sur la voiture
+
+
+**Scoper :**   
+Posez-vous la question de ce qui est nécessaire et de ce qui est optionnel (nice to have).  
+Ne commencez pas par ce qui est optionnel tant que ce qui est nécessaire ne fonctionne pas.   
+
 
 ---
 
