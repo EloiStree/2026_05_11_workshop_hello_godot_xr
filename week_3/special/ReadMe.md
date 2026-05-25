@@ -1,5 +1,7 @@
-<img width="677" height="684" alt="image" src="https://github.com/user-attachments/assets/7b5d7830-dab5-49d9-b09a-879a6697de94" />    
-« Ce n’est pas avec neuf femmes qu’on peut faire un enfant en un mois. »
+[<img width="720"  alt="image" src="https://github.com/user-attachments/assets/7b5d7830-dab5-49d9-b09a-879a6697de94" />](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr)        
+[<img width="720"  alt="image" src="https://github.com/user-attachments/assets/0965456b-a5a9-4db8-b8ad-bd35532d51c9" />](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr)  
+
+« Ce n’est pas avec neuf femmes qu’on peut faire un enfant en un mois. »  
 - Coder prend du temps
 - Coder demande des pauses pour réfléchir
 - Coder demande parfois de “dormir dessus” pour laisser les idées mûrir
@@ -91,6 +93,9 @@ Mais le modding, il faut que vous testiez.
 **La thématique de la Jam du 3 juin :**
 « Godotarium avec des KS4036 pour apprendre à coder »
 
+[<img width="828" height="433" alt="image" src="https://github.com/user-attachments/assets/bd3fa43a-fb74-4491-b8b9-662180cfdad2" />](https://www.youtube.com/watch?v=5CaVhGTG8eA)      
+[Demo Video](https://www.youtube.com/watch?v=5CaVhGTG8eA)   
+
 - [Un robotarium ?](https://youtu.be/V10LkFVFppw?t=43)
 - [Youtube Channel](https://www.youtube.com/channel/UC95etX3555MyNyOjoWHKFXg)
 - [Robotarium Website](https://www.robotarium.gatech.edu/get-started)
@@ -107,7 +112,7 @@ Voir :
 
 # KS4036
 
-[<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f09409d5-9025-45d7-87da-68344bb8f31b" />](https://github.com/keyestudio/KS4036F-KEYESTUDIO-Microbit-Smart-Robot-Car/blob/master/docs/1.Introduction.md)
+[<img width="720"  alt="Image" src="https://github.com/user-attachments/assets/f09409d5-9025-45d7-87da-68344bb8f31b" />](https://github.com/keyestudio/KS4036F-KEYESTUDIO-Microbit-Smart-Robot-Car/blob/master/docs/1.Introduction.md)
 
 
 Info : [Quick](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/220)
@@ -156,9 +161,9 @@ Trouvez des éléments 3D pour les senseurs :
 
 
 Note: Circuit et Dessin
-<img width="539" height="289" alt="image" src="https://github.com/user-attachments/assets/4643da8d-038f-4c64-ae28-70dfc6f299e5" />
+<img width="720" alt="image" src="https://github.com/user-attachments/assets/4643da8d-038f-4c64-ae28-70dfc6f299e5" />
 
 
-[<img width="422" height="310" alt="image" src="https://github.com/user-attachments/assets/a8d54e4e-2946-4fda-a3d1-5c3aeed90721" />](https://www.youtube.com/watch?v=BnndejesWyA)   
+[<img width="720" alt="image" src="https://github.com/user-attachments/assets/a8d54e4e-2946-4fda-a3d1-5c3aeed90721" />](https://www.youtube.com/watch?v=BnndejesWyA)   
 https://www.youtube.com/watch?v=BnndejesWyA   
 
