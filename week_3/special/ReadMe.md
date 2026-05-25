@@ -33,8 +33,8 @@ Le code que vous écrirez cette semaine sera utilisé par d’autres la semaine 
 [<img width="720"  alt="image" src="https://github.com/user-attachments/assets/0965456b-a5a9-4db8-b8ad-bd35532d51c9" />](https://github.com/EloiStree/2026_05_11_workshop_hello_godot_xr)  
 
 Préparer une boîte à outils en groupe sur Git simulant un KS4036, sans avoir le jeu de la Jam en tête.
-Le but est de l’utiliser durant la JAM.
-Et qu'il soit utilisable sur [Godot Lib](https://godotengine.org/asset-library/asset).
+Le but est de l’utiliser durant la Jam.   
+Et qu'il soit theoriquement utilisable sur [Godot Lib](https://godotengine.org/asset-library/asset).
 
 Essayer de rester le plus « propre » possible, dans la mesure du possible.
 
