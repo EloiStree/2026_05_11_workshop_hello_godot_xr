@@ -1,4 +1,4 @@
-<img width="677" height="684" alt="image" src="https://github.com/user-attachments/assets/7b5d7830-dab5-49d9-b09a-879a6697de94" />
+<img width="677" height="684" alt="image" src="https://github.com/user-attachments/assets/7b5d7830-dab5-49d9-b09a-879a6697de94" />    
 « Ce n’est pas avec neuf femmes qu’on peut faire un enfant en un mois. »
 - Coder prend du temps
 - Coder demande des pauses pour réfléchir
