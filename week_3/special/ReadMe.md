@@ -109,16 +109,13 @@ Composition : [Info](https://github.com/EloiStree/2026_03_23_doc_micro_bit_senso
 * Une LED RGB à gauche et une LED RGB à droite
 * Deux roues
 * Mouvement en `differential drive`
-
   * Une vitesse propre au KS4036
 * Un détecteur de distance frontal
 * Deux détecteurs de ligne en dessous
 * Un port pour le Micro:bit
-
   * Un Micro:bit avec le code
 * ~Challenge : Deux capteurs lumineux~
 * Un récepteur infrarouge
-
   * Une télécommande infrarouge
 * Autre : ~Batterie~, ~Des pins~
 
@@ -132,12 +129,9 @@ Le Micro:bit sur le slot possède :
 * ~Challenge : Bluetooth UART BLE~
 
 Vous pouvez rajouter à votre boîte à outils des senseurs pour votre futur jeu.
-
 * All KeyeStudio : [https://github.com/EloiStree/2026_04_11_gdp_learn_with_sensors/issues/3](https://github.com/EloiStree/2026_04_11_gdp_learn_with_sensors/issues/3)
-
   * KeyeStudio : [https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues?q=Keye](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues?q=Keye)
 * TinkerCard : [https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/145](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/145)
-
   * Tous les composants électriques : [https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/159](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/159)
 
 Inspiration Microbots :
