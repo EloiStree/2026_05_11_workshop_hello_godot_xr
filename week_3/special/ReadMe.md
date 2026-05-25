@@ -69,7 +69,6 @@ Essayez de trouver des exercices plus complexes qui font avancer le projet pour 
 * Comment attraper des objets
 * Un peu de 3D
 * Un peu de rotation
-
   * Comment créer un joystick avec un tilt/roll
 * Comment setup un casque
 * Un peu d’Area3D
