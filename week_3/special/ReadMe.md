@@ -86,19 +86,29 @@ Mais le modding, il faut que vous testiez.
 
 ---
 
-### La thématique de la Jam du 3 juin :
 
-**« Robotarium avec des KS4036 pour apprendre à coder »**
 
-Imaginez que vous vouliez apprendre à programmer.
+**La thématique de la Jam du 3 juin :**
+« Godotarium avec des KS4036 pour apprendre à coder »
 
-Créez un jeu qui vous donne envie d’apprendre.
+- [Un robotarium ?](https://youtu.be/V10LkFVFppw?t=43)
+- [Youtube Channel](https://www.youtube.com/channel/UC95etX3555MyNyOjoWHKFXg)
+- [Robotarium Website](https://www.robotarium.gatech.edu/get-started)
 
-Voir : CodeInGame
+Imaginez que vous vouliez apprendre à programmer:   
+_Créez un jeu qui vous donne envie d’apprendre a coder._  
+
+Voir :
+- [CodInGame: Platinium Rift](https://www.codingame.com/multiplayer/bot-programming/platinum-rift-episode-2)
+- [Farmer Drone](https://store.steampowered.com/app/2060160/The_Farmer_Was_Replaced/)
+  - [Video](https://www.youtube.com/watch?v=Yf9H4doN-d4)  
 
 ---
 
 # KS4036
+
+[<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f09409d5-9025-45d7-87da-68344bb8f31b" />](https://github.com/keyestudio/KS4036F-KEYESTUDIO-Microbit-Smart-Robot-Car/blob/master/docs/1.Introduction.md)
+
 
 Info : [Quick](https://github.com/EloiStree/2026_03_23_doc_micro_bit_sensor/issues/220)
 
