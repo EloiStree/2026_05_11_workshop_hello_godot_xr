@@ -172,10 +172,22 @@ Trouvez des éléments 3D pour les senseurs :
 -----------------------
 
 
-Note: Circuit et Dessin
-<img width="720" alt="image" src="https://github.com/user-attachments/assets/4643da8d-038f-4c64-ae28-70dfc6f299e5" />
+**Challenge : Dessinez sur le sol une carte :** <img width="720" alt="image" src="https://github.com/user-attachments/assets/4643da8d-038f-4c64-ae28-70dfc6f299e5" />
+
+Dans un tournoi de robots, il y a généralement un sol avec des lignes.
+Pour cela, il faut deux outils :
+
+* un pour éditer une Texture2D (image)
+* un pour lire une Texture2D (image)
+
+*(Attention : éditer et lire en même temps… c’est compliqué. À éviter si possible.)*
 
 
-[<img width="720" alt="image" src="https://github.com/user-attachments/assets/a8d54e4e-2946-4fda-a3d1-5c3aeed90721" />](https://www.youtube.com/watch?v=BnndejesWyA)   
-https://www.youtube.com/watch?v=BnndejesWyA   
+**Solution : KS4036 moddé**
+[<img width="720" alt="image" src="https://github.com/user-attachments/assets/a8d54e4e-2946-4fda-a3d1-5c3aeed90721" />](https://www.youtube.com/watch?v=BnndejesWyA)
+[https://www.youtube.com/watch?v=BnndejesWyA](https://www.youtube.com/watch?v=BnndejesWyA)
+
+Je ne vous aurais pas donné cet exercice si je ne savais pas le faire moi-même.
+Voici un exemple de ce que cela peut donner.
+
 
