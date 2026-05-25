@@ -183,9 +183,10 @@ Pour cela, il faut deux outils :
 *(Attention : éditer et lire en même temps… c’est compliqué. À éviter si possible.)*
 
 
-**Solution : KS4036 moddé**
+**Solution : KS4036 moddé**   
 [<img width="720" alt="image" src="https://github.com/user-attachments/assets/a8d54e4e-2946-4fda-a3d1-5c3aeed90721" />](https://www.youtube.com/watch?v=BnndejesWyA)
-[https://www.youtube.com/watch?v=BnndejesWyA](https://www.youtube.com/watch?v=BnndejesWyA)
+[https://www.youtube.com/watch?v=BnndejesWyA](https://www.youtube.com/watch?v=BnndejesWyA)   
+[📼 Video](https://www.youtube.com/watch?v=BnndejesWyA)   
 
 Je ne vous aurais pas donné cet exercice si je ne savais pas le faire moi-même.
 Voici un exemple de ce que cela peut donner.
