@@ -208,6 +208,8 @@ https://github.com/EloiStree/2026_05_22_gdp_modding_lab
 
 <img width="740" height="344" alt="image" src="https://github.com/user-attachments/assets/f6c6a737-70b0-4c17-8eb7-a93e11ef8ee9" />
 
+**Mecredit 27:** Modding     
+https://github.com/EloiStree/HelloGodotModding/blob/main/Note/2026_05_26   
 
 -----------
 
