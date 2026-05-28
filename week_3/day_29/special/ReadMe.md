@@ -1,4 +1,4 @@
-<img width="1446" height="715" alt="image" src="https://github.com/user-attachments/assets/f2007f44-73a9-4bbf-9c35-74e902c16d55" />
+
 # Felicitations
 
 Bon bah deja fecilitation   
