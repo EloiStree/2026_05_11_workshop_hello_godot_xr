@@ -1,4 +1,4 @@
-
+<img width="1446" height="715" alt="image" src="https://github.com/user-attachments/assets/f2007f44-73a9-4bbf-9c35-74e902c16d55" />
 # Felicitations
 
 Bon bah deja fecilitation   
@@ -93,16 +93,27 @@ Que ce soit:
 
 En gros 😄, il y a du taff.
 
+Noter que les artistes vient d avoir un cours sur les animations.
+Donc un UI 3D animer "juicy" 🪄🧙‍♂️?  
+
 Mais vous avec 3 jours.
 Moins  un jour car vous devez, builder, filmer, publicer verifier,test ...
 
 Sachez `scoper` la taille de votre jam.
 
-Un jeu de d'un jam de 48H. Ca prendre 6-12 mois pour le finir et le publier sur le store
+Un jeu de d'un jam de 48H. Ca prendre 6-12 mois (Beat Saber) pour le finir et le publier sur le store
 Voir 3-7 ans pour Guillaume 😋.
-Et 4 ans pour Thomas.
+Et 3-4 ans pour Thomas Van Bowel😉
 
 
+Ma citations prefere pour la cration de boite a outils et cette jam de 14-21 heures:
+>EN "Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius — and a lot of courage — to move in the opposite direction."
+>FR "N’importe quel imbécile intelligent peut rendre les choses plus grandes, plus complexes et plus violentes. Il faut une touche de génie — et beaucoup de courage — pour aller dans la direction opposée."
+
+_je n arrive pas a la respecter mais je fais de mon mieux_
+
+Essaye de ne pas compter sur la quantiter des assets mais sur la simpliciter que permet la XR.
+-> KISS & Scope
 
 
 ---------------
@@ -113,10 +124,10 @@ Pour moi, un gamejam ne doit pas etre un portfolio car cela casse la creativiter
 Mais chaque jam finit toujours par etre dans votre portfolio en image et en video.
 _Voir une fois sur 1000, un jeu sur le store ultra celebre, parce qu il est simplement unique._
 
-Comme dit Nicolas, vous avez envie, besoin , de pouvoir montrer et exposer vos competences et en etre fier apres la jam.
+Comme  m a dit Nicolas, vous avez envie, besoin , de pouvoir montrer et exposer vos competences et en etre fier apres la jam.
 Et Nico, voir d autres, aurons surement cette volonter.
 
-J ai fait 100 jams/hackathons, j ai explorer les trois aspects de cette piece.
+J ai fait litterlaement fait 100+ jams/hackathons, j ai explorer les trois aspects de cette piece.
 Je laisse le groupe decider de votre volonter sur ce sujet.
 C est votre choix de groupe.
 
@@ -139,11 +150,13 @@ Tout ce que je peux vous partager, c est mon experience sur le terrain avec l in
   - pour les universiters
 - pour un agriculteur de campage
 - une ecole de drone
-- un forestier 
+- un forestier
+- des apiculteurs
+- les architectes
 - ...
 
 C est toujours une question:
-- de besoin,
+- de d un **besoin** concrete,
 - des cours periodes de developpement
 - de petit budjet
 - de nombreux projets sur l annees
@@ -161,10 +174,11 @@ Voir:
 - Voir Brotaru, GameCom , Cafe Numerique , Meet &Build...
 - ...
 
-Contrairement au gaming, dans cette industrie c est pas un beau portfolio qui compte.
-C est la preuve que vous arrivez a finir un projet dans un court lapse de sans que ce soit moche et en respectant **le besoin** du client.
+Contrairement au gaming, dans cette industrie c est pas un beau portfolio qui compte.   
+C est la preuve que vous arrivez a finir un projet dans un court lapse de temps sans que ce soit moche et en respectant **le besoin** du client.  
+Surout en delestant une **pain** sur le besoin du client.   
 
-En fait la jam comme vous le desiez tant que vous respectes le besoin du faux clients de la thematique.
+> Fait la jam comme vous le desiez tant que vous respectes le besoin du faux clients de la thematique.
 
 -----------------------
 
@@ -173,6 +187,9 @@ En fait la jam comme vous le desiez tant que vous respectes le besoin du faux cl
 La condition de la thematique: Godotarium
 - Avoir un jeu pour apprendre a coder sur le Quest
 - Utiliser votre boite a outil de cette semaine.
+
+Inspirez vous du concept de Robotarium 🍻
+Nulle besoin d etre un/le robotarium.
 
 Les restes, c'est vous qui choisissez.
 
@@ -187,12 +204,12 @@ Si vous allez la [LUDOVIA#BE](https://ludovia.be) a Spa
 [<img width="752" height="960" alt="image" src="https://github.com/user-attachments/assets/1c454c32-5fd4-4e2c-9801-a62721c29175" />](https://ludovia.be)   
 https://ludovia.be   
 
-Vous constaterez que un gros partie de stand sonc consacrer a la apprentisage de la programmation Ludique dans les ecoles et centre de formation.
-Et 80% utiliser les librairies Python et des applications personnalisables aux enseignants.
+Vous constaterez que un gros partie des stands sont consacrer a la apprentisage de la programmation Ludique dans les ecoles et centre de formation.
+Et 80% utiliser les librairies Python et des applications personnalisables par les enseignants.
 
-C est application ont aussi, de la telemetry (souvant demander dans mes anciens projets clients) pour avoir un historique et/ou des donnes en live de l apprenant.
+C est application ont aussi, de la telemetry (souvant demander dans les projets clients) pour avoir un historique, certification et/ou des donnes en live de l apprenant.
 
-Si vous cherchez un stage vous pouvez contact:  
+Si vous cherchez un stage dans ce domaine vous pouvez contact:  
 - [Art Team](https://www.art-team.fr)
 - [Pascal Balancier](https://www.linkedin.com/in/pascalbalancier/)
 - [Jerome Marciniak](https://www.linkedin.com/in/jeromemarciniak/) 
@@ -204,10 +221,11 @@ Si vous cherchez un stage vous pouvez contact:
 - Voir [TUMO Liege](https://www.jeunesse-ardente.be/article/tumo-liege/)
 - Aller au [Fosdem](https://fosdem.org/2026/)
 
-Avec l'arriver des AI sur le marcher, vous avez un ocean de vibe coder qui save coder vite et bien et mais pas loin.
-On a donc besoin de cours ludique qui enseigne les bases de la programtion et des algorithmes pour ceux qui n ont pas les moyens de faire des etudes de gestion.
+Avec l'arriver des AI sur le marcher, vous avez un ocean de vibe coder qui save coder vite et bien et mais pas loin.  
+On a donc besoin de cours ludique qui enseigne les bases de la programtion et des algorithmes pour ceux qui n ont pas les moyens de faire des etudes de gestion.  
+Et comme la matiere chiant a mourir, faut trouver des moyens ludique de faire passer la matiere 😅.   
 
-Il en existe evidemment des tonnes:
+Il en existe evidemment des tonnes de companies deja sur le marcher:
 - https://leekwars.com
 - https://www.codingame.com/start/
 - https://python.microbit.org/v/3
@@ -216,9 +234,67 @@ Il en existe evidemment des tonnes:
 - https://www.codecademy.com
 - https://www.boot.dev
 - https://codecombat.com
-- 
+- https://brilliant.org
+- ...
 
 ___________________________
+
+
+
+
+
+------------------------
+
+
+# Vendredi 29
+  
+> Tester, Solidifer, Retirer.   
+  
+En gros, finir une version stable de votre boite a outils.  
+Et vas utiliser `YAML` avec `Action GitHub` sur le "main" pour automatiser vos release.    
+
+[<img width="1408" height="724" alt="image" src="https://github.com/user-attachments/assets/566df62a-c525-45aa-8b55-93a2f8286d91" />](https://youtu.be/mfv0V1SxbNA?t=2227)  
+[<img width="1245" height="708" alt="image" src="https://github.com/user-attachments/assets/d36a787c-fe13-4c01-863f-3f05b7417645" />](https://youtu.be/mfv0V1SxbNA?t=2227)  
+https://youtu.be/mfv0V1SxbNA?t=2227   
+
+
+En gros, faut pas ce soit parfait, mais une boite outil ca fini chez le client.    
+<img width="591" height="330" alt="image" src="https://github.com/user-attachments/assets/ff392429-aef0-4a6e-91aa-19ca42f0515f" />
+Donc faut pas que ce soit un chateau de carte impossible a reconstruir si ca casse.     
+
+> Posez vous la question, ai-je peur de mon code.    
+> Si oui, faut travailler le sujet.    
+
+Lundi 1 juin ont pratique les Nodes UI 2D de Godot
+<img width="1136" height="253" alt="image" src="https://github.com/user-attachments/assets/15d61886-3987-4415-b3b9-6aee6b9c813a" />
+
+Mardi 2 ont prend le temps de regarder et pratiquer les 200 Nodes
+<img width="1171" height="273" alt="image" src="https://github.com/user-attachments/assets/fbb2d624-88b6-403e-9d01-27d358ce88f5" />
+
+ 
+Si vous vouyez des thematiques que l'on pourrait avoir besoin durant la Jam.  
+Proposez les moi avant le weekend    
+On y consacrera du temps.  
+
+
+
+
+## YAML
+
+ Voir YAML
+
+
+## Gist
+
+Voir Gist
+
+
+
+
+
+
+
+
 
 
 
