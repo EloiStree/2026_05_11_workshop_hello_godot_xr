@@ -312,9 +312,9 @@ On y consacrera du temps.
 
 ---
 
-## YAML
+## YML
 
-Voir [YAML](YAML.md)
+Voir [YML](YML.md)
 
 ---
 
