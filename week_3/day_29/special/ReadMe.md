@@ -17,3 +17,10 @@ Gg
 
 
 -----------------
+
+Savoir faire une boite a outil reutilisable de projet en projet,  c est ultra imporant dans les entreprises de service.  
+Car c est ce qui vous rends competif dans l industrie.   
+
+Maintenant fait une boite outil qui ne casse pas et ou ce sens a laisse.
+Ca cest un auter defit..
+
