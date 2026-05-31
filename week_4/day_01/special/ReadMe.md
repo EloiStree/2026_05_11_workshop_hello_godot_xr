@@ -264,3 +264,36 @@ Canvas Layer
 ![alt text](image-55.png)
 
 
+-------------
+
+
+# Code Edit
+
+
+Inject text in Code Edit:
+
+``` gdscript
+
+class_name  UiLabCodeEditPlus
+extends Node
+
+@export var code_edit:CodeEdit
+
+func insert_text_next_line(text:String):
+	s_insert_text_next_line(code_edit,text)
+
+static func s_insert_text_next_line(editor: CodeEdit, text: String) -> void:
+	var line := editor.get_caret_line()
+	if editor.has_selection():
+		line = editor.get_selection_to_line()
+	var target := line + 1
+	var count := editor.get_line_count()
+	if target >= count:
+		editor.insert_line_at(count, "")
+		target = count
+	var indent := editor.get_indent_level(target)
+	editor.set_caret_line(target)
+	editor.set_caret_column(indent)
+	editor.insert_text_at_caret(text+"\n")
+
+```
