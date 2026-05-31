@@ -273,6 +273,7 @@ Canvas Layer
 Inject text in Code Edit:  
 ![alt text](image-58.png)  
  
+ 
 ``` gdscript
 
 class_name  UiLabCodeEditPlus
