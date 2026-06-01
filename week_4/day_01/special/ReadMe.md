@@ -6,8 +6,8 @@ https://github.com/EloiStree/2026_05_29_gdp_xr_ui_lab
 Pour pas commencer de zero:    
 https://github.com/EloiStree/2026_05_29_gdp_xr_ui_lab/releases/tag/v0.0.1    
 
-200 nœuds dans Godot et UI :
-https://youtu.be/tO2gthp45MA?t=1531
+200 nœuds dans Godot et UI :   
+https://youtu.be/tO2gthp45MA?t=1531  
 
 # UI et IDE
 
