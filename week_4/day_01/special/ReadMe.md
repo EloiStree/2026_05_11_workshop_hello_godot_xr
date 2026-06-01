@@ -1,10 +1,13 @@
 
 
-Addons pour rendre cet exercice plus facile :
-https://github.com/EloiStree/2026_05_29_gdp_xr_ui_lab
+Addons pour rendre cet exercice plus facile :  
+https://github.com/EloiStree/2026_05_29_gdp_xr_ui_lab   
 
-200 nœuds dans Godot et UI :
-https://youtu.be/tO2gthp45MA?t=1531
+Pour pas commencer de zero:    
+https://github.com/EloiStree/2026_05_29_gdp_xr_ui_lab/releases/tag/v0.0.1    
+
+200 nœuds dans Godot et UI :   
+https://youtu.be/tO2gthp45MA?t=1531  
 
 # UI et IDE
 
